@@ -1,0 +1,2511 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Hai","Hallo","Hello","Helo","Hi","Hey","hei","hy","hiii","halloo"],
+      "responses": [
+        "Hai! ,ada yang bisa dibantu nih?",
+        "Hallo! ,ada yang bisa dibantu nih?",
+        "Hello! ,ada yang bisa dibantu nih?"
+      ]
+    },
+    {
+      "tag": "salam2",
+      "patterns": ["Assalamualaikum","Assalamu'alaikum","Assalamu'alaikum Warahmatullahi","Assalamu'alaikum Warahmatullahi Wabarakatuh"],
+      "responses": ["Waalaikumsalam"]  
+    },
+    {
+      "tag": "Salam3",
+      "patterns": ["Selamat Pagi","Pagi","Met Pagi","Morning","Good Morning"],
+      "responses": ["Selamat pagi","Pagi"]
+    },
+    {
+      "tag": "Salam4",
+      "patterns": ["Selamat Siang","Siang","Afternoon","Good Afternoon"],
+      "responses": ["Selamat siang","Afternoon"]
+      
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+  
+    {
+      "tag": "Ikan Teri",
+      "patterns": ["Apa itu ikan teri?", "Ikan teri itu apa?", "Apa sih ikan teri?"],
+      "responses": ["Ikan teri atau ikan bilis adalah sekelompok ikan laut kecil. Nama ini mencangkup berbagai ikan dengan warna tubuh perak kehijauan dan kebiruan. Dan memiliki garis anatomi longitudinal dari dasar caudal fin (ekor).Ciri ciri ikan teri yang cukup menonjol adalah bentuk ukuran tubuhnya yang sangat kecil. Pada dasarnya bentuk tubuh ikan ini hampir sama dengan ikan-ikan pada umumnya. Bentuknya pipih memanjang, ujung ekornya berbentuk kerucut atau meruncing."]
+    },
+    {
+      "tag": "Nama Latin Ikan Teri",
+      "patterns": ["Nama ilmiah Ikan Teri", "Apa sih nama latinnya ikan teri?", "Nama latin ikan teri?", "Nama latin dari ikan teri itu apa?", "Ikan teri punya nama latin apa?", "Apa nama lain dari ikan teri?"],
+      "responses": ["Nama latin dari ikan teri adalah Stolephorus sp. "]
+    },
+    {
+      "tag": "Gizi Ikan Teri",
+      "patterns": ["Gizi yang terkandung dalam ikan teri?", "Apa gizi dari ikan teri?", "kandungan gizi yang ada di ikan teri?"],
+      "responses": ["Didalam ikan teri terdapat banyak jenis kandungan gizi, seperti protein, kalsium, fosfor, zat besi, vitamin B1 serta vitamin A."]
+    },
+    {
+      "tag": "Harga Ikan Teri",
+      "patterns": ["Berapa harga 1 Kg ikan teri?", "Harga 1 Kg Ikan teri?", "Berapa harga ikan teri?", "Harga perkilo dari ikan teri?"],
+      "responses": ["Untuk harga perkilo dari ikan teri rata - ratanya adalah Rp.20.000"]
+    },
+    {
+      "tag": "Makanan Ikan Teri",
+      "patterns": ["Apa makanan ikan teri?", "Makanan ikan teri?"],
+      "responses": ["Biasanya moncong tumpul dengan gigi yang kecil dan tajam pada kedua rahangnya. Mangsa utama ikan teri adalah plankton."]
+    },
+    {
+      "tag": "Klasifikasi Ikan Teri",
+      "patterns": ["Klasifikasi Ikan teri?", "apa aja klasifikasi ikan teri?"],
+      "responses": ["Klasifikasi dari ikan teri adalah sebagai berikut : Filum = Chordata,Kelas = Pisces,Subkelas = Teleostei,Ordo = Malacopteygii,Famili = Clupeidae,Subfamili = Engraulidae,Genus = Stolephorus sp.,Spesies = Stolephorus indicus."]
+    },
+    {
+      "tag": "Tips Pengolahan Ikan Teri",
+      "patterns": ["Cara mengolah ikan teri?", "Bagaimana cara mengolah ikan teri?", "Bagaimana pengolahan ikan teri?", "Tips Mengolah ikan teri?"],
+      "responses": ["Ikan teri itu bisa dimasak goreng, dijadikan sebagai tambahan lauk seperti ikan asin, rolade, dan tahu goreng, bisa dijadikan sambal goreng."]
+    },
+    {
+      "tag": "Musim Ikan Teri",
+      "patterns": ["Pada bulan apa musim ikan teri?", "Musim ikan teri pada bulan apa?", "Kapan puncak musim ikan teri?", "Kapan musim ikan teri?"],
+      "responses": ["Biasanya musim yang baik untuk melakukan penangkapan ikan teri adalah pada bulan oktober hingga di bulan Januari, lalu puncaknya di bulan Desember dengan rasio 163%."]
+    },
+    {
+      "tag": "Habitat Ikan Teri",
+      "patterns": ["Dimana habitat ikan teri?", "Dimana Ikan teri tinggal?", "Habitat ikan teri"],
+      "responses": ["Ikan teri hidup di perairan pesisir, Habitatnya tersebar di kawasan pantai di samudra Atlantik, Hindia dan Pasifik."]
+    },
+    {
+      "tag": "Ikan belanak", 
+      "patterns": ["Apa sih ikan belanak?", "Apa itu ikan belanak?", "Apa itu ikan belanak?", "ikan belanak itu apa?"],
+      "responses": ["Ikan Belanak adalah sejenis ikan laut tropis dan subtropis di suku Mugilidae yang bentuknya hampir menyerupai bandeng. Ikan Belanak memiliki bentuk memanjang dan pipih. Ikan Belanak memiliki lima sirip yaitu sirip dada, sirip anal, sirip dorsal ganda, sirip perut yang berwarna perak, pada pinggiran belakang sirip ekor berwarna hitam. Bentuk tubuh yaitu simetris bilateral dan tidak memiliki sungut."]
+    },
+    {
+      "tag": "Nama Latin Ikan Belanak",
+      "patterns": ["Nama ilmiah ikan belanak?", "Nama latin dari ikan belanak?", "Nama lain dari ikan belanak?", "Ikan belanak punya nama latin apa?", "Apa sih nama latinnya ikan belanak?"],
+      "responses": ["Nama latin dari ikan teri adalah Mugil Cephalus sp."]
+    },
+    {
+      "tag": "Gizi Ikan Belanak",
+      "patterns": ["Gizi yang terkandung dalam ikan belanak?", "Kandungan gizi yang terdapat pada ikan belanak?", "gizi yang terdapat pada ikan belanak?"],
+      "responses": ["Gizi yang terkandung dalam ikan belanak yaitu protein, selenium, niasin, vitamin B6, fosfor, kalium, asam pantotenat, serta magnesium."]
+    },
+    {
+      "tag": "Harga Ikan Belanak",
+      "patterns": ["Berapa harga 1 Kg ikan belanak?", "Harga 1 Kg ikan belanak?", "Berapa harga ikan belanak?", "Harga perkilo ikan belanak"],
+      "responses": ["Untuk harga perkilo dari ikan teri rata - ratanya adalah Rp.20.000"]
+    },
+    {
+      "tag": "Makanan Ikan Belanak",
+      "patterns": ["Apa makanan ikan belanak?", "Makanan ikan belanak?", "Makanan ikan belanak apa aja?"],
+      "responses": ["Biasanya untuk kelompok makanan ikan belanak  terdiri dari dari mikroalga, protozoa, crustacea, mollusca dan detritus."]
+    },
+    {
+      "tag": "Klasifikasi Ikan Belanak",
+      "patterns": ["Klasifikasi ikan belanak?", "Apa aja klasifikasi ikan belanak?"],
+      "responses": ["Klasifikasi dari ikan belanak adalah sebagai berikut : Filum = Chordata,Kelas = Actinoptertgii,Ordo = Mugiliformes,Famili = Mugilidae,Genus = Mugil, Spesies = Mugil sp."]
+    },
+    {
+      "tag": "Tips Pengolahan Ikan Belanak",
+      "patterns": ["Cara mengolah ikan belanak?", "Bagaimana pengolahan dari ikan belanak?", "Tips pengolahan ikan belanak", "Apa aja sih tips pengolahan ikan belanak itu?"],
+      "responses": ["Ikan belanak biasa dijadikan sebagai tambahan lauk seperti pindang ikan belanak, semur ikan belanak, serta goreng matang."]
+    },
+    {
+      "tag": "Musim Ikan Belanak",
+      "patterns": ["Pada bulan apa musim ikan belanak?", "Kapan puncak musim ikan belanak?", "Kapan musim ikan belanak?", "Puncak musim ikan belanak pada bulan apa?"],
+      "responses": ["Musim ikan belanak biasanya jatuh pada bulan juni hingga agustus."]
+    },
+    {
+      "tag": "Habitat Ikan Belanak",
+      "patterns": ["Dimana habitat ikan belanak?", " Dimana ikan belanak tinggal?", "Habitat ikan belanak", "Habitat ikan belanak itu ada dimana?"],
+      "responses": ["Ikan belanak biasanya hidup di perairan muara sebagai tempat hidupnya termasuk di muara sungai di teluk"]
+    },
+    {
+      "tag": "Ikan Selar Bentong",
+      "patterns": ["Apa itu Ikan Selar Bentong?", "Apa sih ikan selar bentong?", "Ikan selar bentong itu apa?"],
+      "responses": ["Ikan selar bentong adalah ikan pelagis kecil dari keluarga carangidae yang sering dijumpai di perairan pulai Ambon. Untuk kebutuhan identifikasi, beberapa idnikator yang dapat dipakai yaitu dengan 9 jari-jari keras sirip dorsal, 24-27 jari-jari lunak sirip dorsal, 3 jari-jari keras sirip anal dan yang lunak berjumlah 21-23. Tubuhnya berwarna keemasan dengan garis kuning melintas di atas lateral line."]
+    },
+    {
+      "tag": "Nama Latin Ikan Selar Bentong",
+      "patterns": ["Apa nama latin ikan selar bentong?", "Nama ilmiah ikan selar bentong?", "Apa nama lain dari ikan selar bentong?", "Ikan selar bentong punya nama latin apa?", "Apa sih nama latinnya ikan selar bentong?"],
+      "responses": ["Nama latin dari ikan teri adalah Selar crumenophthalmus sp."]
+    },
+    {
+      "tag": "Gizi Ikan Selar Bentong",
+      "patterns": ["kandungan gizi yang ada pada ikan selar bentong?", "gizi yang terdapat pada ikan selar bentong?"],
+      "responses": ["Ikan selar bentong mempunyai banyak sekali kandungan gizi, speperti protein, kalsium, sodium, kolestrol, potasium, vitamin D, vitamin A, zat besi serta kalori"]
+    },
+    {
+      "tag": "Harga Ikan Selar Bentong",
+      "patterns": ["Berapa harga 1 Kg ikan selar bentong?", "Harga 1 Kg ikan selar bentong", "Berapa harga kiloan ikan selar bentong?"],
+      "responses": ["Biasanya ikan selar bentong dihargai kisaran rata-rata Rp.20.000"]
+    },
+    {
+      "tag": "Makanan Ikan Selar Bentong",
+      "patterns" : ["Apa makanan ikan selar bentong", "Makanan ikan selar bentong", "Makanan ikan selar bentong apa aja?"],
+      "responses" : ["Untuk makanan ikan selar bentong yang merupakan ikan karnivora, ikan selar bentong memiliki kebiasaan makan berupa ikan-ikan kecil dan krustasea"]
+    },
+    {
+      "tag": "Klasifikasi Ikan Selar Bentong",
+      "patterns": ["Apa aja klasifikasi ikan selar bentong?", "Klasifikasi ikan selar bentong?"],
+      "responses": ["Klasifikasi dari ikan selar bentong adalah sebagai berikut : Filum = Chordata,Kelas = Pisces,Ordo = Percomorphi,Famili = Scombridae,Genus = Caranx,Spesies = Caranx melamphygus"]
+    },
+    {
+      "tag": "Tips Pengolahan Ikan Selar Bentong",
+      "patterns": ["Bagaimana cara mengolah ikan selar bentong?", "Cara mengolah ikan selar bentong?", "Apa aja sih tips pengolahan ikan selar bentong?", "Tips mengolah ikan selar bentong?"],
+      "responses": ["Ikan selar bentong ini bisa diolah bermacam-macam, bisa digoreng tepung, dijadikan sayur atau lauk seperti pepes ikan selar bentong"]
+    },
+    {
+      "tag": "Musim Ikan Selar Bentong",
+      "patterns": ["Kapan musim ikan selar bentong?", "Pada bulan apa musim ikan selar bentong?", "Kapan puncak ikan selar bentong?", "Puncak musim ikan selar bentong pada bulan apa?"],
+      "responses": ["Ikan Selar Bentong mengalami dua musim pemijahan yaitu awal bulan Juni dan awal bulan Desember dan Januari"]
+    },
+    {
+      "tag": "Habitat Ikan Selar Bentong",
+      "patterns": ["Habitat ikan selar bentong", "Dimana ikan selar bentong tinggal?", "Dimana habitat ikan selar bentong?", "Habitat ikan selar bentong ada dimana?"],
+      "responses": ["Ikan selar bentong merupakan salah satu jenis ikan pelagis kecil yang cukup dominan tertangkap di perairan Natuna, Laut China Selatan"]
+    },
+    {
+      "tag": "Ikan Cendro",
+      "patterns": ["Apa sih itu ikan cendro?", "Apa itu ikan cendro?", "Ikan cendro itu apa sih?", "Apa itu ikan cendro?"],
+      "responses": ["Ikan cendro merupakan ikan pefenang cepat yang biasa berenang di permukaan perairan. Selain itu, ikan cendro sering mencari makan di perairan karang. Ikan cendro memiliki warna tubuh perak, dengan bagian atas berwarna gelap. Badannya tidak bersisik, memiliki mulit yang moncong dengan gerigi tajam"]
+    },
+    {
+      "tag": "Nama Latin Ikan Cendro",
+      "patterns" : ["Nama latin ikan cendro?", "Nama ilmiah ikan cendro?", "Apa nama latin dari ikan cendro?", "Ikan Cendro punya nama latin apa?", "Ikan cendro punya nama lain apa?", "Ikan cendro punya nama ilmiah apa?", "Apa sih nama latinnya ikan cendro?"],
+      "responses" : ["Nama latin dari ikan cendro adalah Tylosurus crocodilus"]
+    },
+    {
+      "tag" : "Gizi Ikan Cendro",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan cendro?", "Kandungan gizi apa yang terdapat pada ikan cendro?", "Gizi yang terdapat pada ikan cendro?"],
+      "responses" : ["Ikan cendro mengandung berbagai mineral penting seperti kalsium, zat besi, dan fosfor yang dikenal bermanfaat untuk kesehatan serta kekuatan tulang gigi"]
+    },
+    {
+      "tag" : "Harga Ikan Cendro",
+      "patterns" : ["Berapa harga 1 Kg ikan cendro?", "Harga 1 Kg ikan cendro?", "Berapa harga perkilo ikan cendro?"],
+      "responses" : ["Ikan cendro biasanya dijual dengan kisaran rata-rata Rp.20.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Cendro",
+      "patterns" : ["Apa makanan ikan cendro?", "Makanan ikan cendro", "Apa aja makanan dari ikan cendro?"],
+      "responses" : ["Ikan cendro termasuk ikan predator yang memakan udang dan ikan-ikan kecil."]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Cendro",
+      "patterns" : ["Klasifikasi ikan cendro?", "Apa aja klasifikasi ikan cendro?"],
+      "responses" : ["Klasifikasi dari ikan belanak adalah sebagai berikut : Filum = Chordata,Kelas = Actinopterygii,Ordo = Beloniformes,Famili = Belonidae,Genus = Tylosurus,Spesies = Tylosurus crocodilus"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Cendro",
+      "patterns" : ["Bagaimana cara mengolah ikan cendro?", "Cara mengolah ikan cendro?", "Apa aja sih tips pengolahan ikan cendro?", "Tips mengolah ikan cendro?"],
+      "responses" : ["Ikan cendro bisa diolah bermacam-macam masakan, seperti masak pedas manis, digoreng, dipanggang serta dibumbu tumis."]
+    },
+    {
+      "tag" : "Musim Ikan Cendro",
+      "patterns" : ["Kapan musim ikan cendro?", "Pada bulan apa musim ikan cendro?", "Kapan puncak ikan cendro?", "Puncak musim ikan cendro pada bulan apa?"],
+      "responses" : ["Ikan cendro biasa ada pada bulan april yang merupakan musim beserta puncak dari penangkapan ikan cendro"]
+    },
+    {
+      "tag" : "Habitat Ikan Cendro",
+      "patterns" : ["Habitat ikan cendro", "Dimana ikan cendro tinggal?", "Habitat ikan cendro itu dimana?"],
+      "responses" : ["Habitat ikan cendro tersebar di Samudera Pasifik serta di perairan Panganddaran dan Cilacap"]
+    },
+    {
+      "tag" : "Ikan Talang-talang",
+      "patterns" : ["Apa sih itu ikan Talang-talang", "Apa itu ikan Talang-talang?", "Ikan Talang-talang itu apa?"],
+      "responses" : ["Ikan Talang-talang memiliki bentuk badan lonjong, memanjang, pipih, moncong membundar, bentuk mulut terminal, yaitu mulut berada di paling ujung bagian kepala. Bagian lemah sirip punggung dan sirip anal pendek denga sisi sirip melengkung. Sirip dada dan sirip perut pendek dapat dimasukkan ke dalam celah. Kepala dan badan berwarna biru kehijauan dengan bagian bawah berwarna putih keperakan sedikit kekuningan. Sisi badan dengan kurang lebih 8 bercak bercak di atas garis rusuk. Sirip dada kehitaman, sirip lainnya keputihan."]
+    },
+    {
+      "tag" : "Nama Latin Ikan Talang-talang",
+      "patterns" : ["Apa nama latinnya ikan Talang-talang?", "Nama latinnya ikan Talang-talang?", "Apa nama ilmiahnya ikan Talang-talang?", "Nama ilmiah dari ikan Talang-talang itu apa?"],
+      "responses" : ["Nama latin dari ikan Talang-talang adalah Scomberoides lysan "]
+    },
+    {
+      "tag" : "Gizi Ikan Talang-talang",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan Talang-talang?", "Kandungan gizi apa yang terdapat pada ikan Talang-talang?", "Gizi yang terdapat pada ikan Talang-talang?"],
+      "responses" : ["Ikan Talang-talang memiliki banyak kandungan gizi seperti asam amino, karbohidrat, vitamin B, fosfor, serta rendal lemak"]
+    },
+    {
+      "tag" : "Harga Ikan Talang-talang",
+      "patterns" : ["Berapa harga 1 Kg ikan Talang-talang?", "Harga 1 Kg ikan Talang-talang?", "Berapa harga perkilo ikan Talang-talang?"],
+      "responses" : ["Harga ikan Talang-talang itu kisaran rata-rata harga Rp.15.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Talang-talang",
+      "patterns" : ["Apa makanan ikan Talang-talang?", "Makanan ikan Talang-talang", "Apa aja makanan dari ikan Talang-talang?"],
+      "responses" : ["Ikan Talang-talang termasuk ikan buas, makanannya ikan ikan kecil."]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Talang-talang",
+      "patterns" : ["Klasifikasi ikan Talang-talang?", "Apa aja klasifikasi ikan Talang-talang?"],
+      "responses" : ["Klasifikasi dari ikan Talang-talang adalah sebagai berikut : Filum = Chordat,Class = Actinopterygii,Ordo = Perciformes,Famili = Glaucosomatidae,Genus = Glaucosoma,Spesies = Glaucosoma burgeri"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Talang-talang",
+      "patterns" : ["Bagaimana cara mengolah ikan Talang-talang?", "Cara mengolah ikan Talang-talang?", "Apa aja sih tips pengolahan ikan Talang-talang?", "Tips mengolah ikan Talang-talang?"],
+      "responses" : ["Ikan Talang-talang biasa diolah dengan cara dibakar, khususnya bakar madu, lalu dipanggang, lalu ikan asin ikan Talang-talang"]
+    },
+    {
+      "tag" : "Musim Ikan Talang-talang",
+      "patterns" : ["Kapan musim ikan Talang-talang?", "Pada bulan apa musim ikan Talang-talang?", "Kapan puncak ikan Talang-talang?", "Puncak musim ikan Talang-talang pada bulan apa?"],
+      "responses" : ["Untuk menangkap ikan talang talang sebaiknya pada awal bulan oktober dan puncaknya pada akhir bulan oktober"]
+    },
+    {
+      "tag" : "Habitat Ikan Talang-talang",
+      "patterns" : ["Habitat ikan Talang-talang", "Dimana ikan Talang-talang tinggal?", "Habitat ikan Talang-talang itu dimana?"],
+      "responses" : ["Ikan Talang-talang hidup di perairan tropis dan ada juga di perairan Australia yang dangkal dengan dasar berupa karang dan pasir di seputaran pulau - pulau atau reef."]
+    },
+    {
+      "tag" : "Ikan Terbang",
+      "patterns" : ["Apa sih itu ikan terbang", "Apa itu ikan terbang?", "Ikan terbang itu apa?"],
+      "responses" : ["Ikan terbang ini memiliki bentuk badan bulat memanjang seperti cerutu. Sirip dada sangat panjang, biasanya mencapai belakang sirip punggung. Telur ikan terbang berbentuk lonjong atau bulat dan tidak memiliki gelembung minyak"]
+    },
+    {
+      "tag" : "Nama Latin Ikan Terbang",
+      "patterns" : ["Apa nama latinnya ikan terbang?", "Nama latinnya ikan terbang?", "Apa nama ilmiahnya ikan terbang?", "Nama ilmiah dari ikan terbang itu apa?"],
+      "responses" : ["Nama latin dari ikan terbang adalah Exocoetidae"]
+    },
+    {
+      "tag" : "Gizi Ikan Terbang",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan terbang?", "Kandungan gizi apa yang terdapat pada ikan terbang?", "Gizi yang terdapat pada ikan terbang?"],
+      "responses" : ["Ikan terbang banya mengandung gizi yang terbilang banyak, seperti protein, fosfor dan kalium"]
+    },
+    {
+      "tag" : "Harga Ikan Terbang",
+      "patterns" : ["Berapa harga 1 Kg ikan terbang?", "Harga 1 Kg ikan terbang?", "Berapa harga perkilo ikan terbang?"],
+      "responses" : ["Harga ikan terbang ini kisaran rata-rata Rp.7.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Terbang",
+      "patterns" : ["Apa makanan ikan terbang?", "Makanan ikan terbang", "Apa aja makanan dari ikan terbang?"],
+      "responses" : ["Makanan dari ikan terbang adalah plankton, crustacea, ganggang, dan ikan ikan yang berukuran kecil"]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Terbang",
+      "patterns" : ["Klasifikasi ikan terbang?", "Apa aja klasifikasi ikan terbang?"],
+      "responses" : ["Klasifikasi dari ikan terbang adalah sebagai berikut : Filum = Chordata,Class = Actinopterygii,Ordo = Beloniformes,Famili = Exocoetidae,Genus = Cypselurus,Spesies = Hirundichthys oxycephalus"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Terbang",
+      "patterns" : ["Bagaimana cara mengolah ikan terbang?", "Cara mengolah ikan terbang?", "Apa aja sih tips pengolahan ikan terbang?", "Tips mengolah ikan terbang?"],
+      "responses" : ["Cara pengolahan ikan terbang ini biasa diolah dengan cara diasap matang"]
+    },
+    {
+      "tag" : "Musim Ikan Terbang",
+      "patterns" : ["Kapan musim ikan terbang?", "Pada bulan apa musim ikan terbang?", "Kapan puncak ikan terbang?", "Puncak musim ikan terbang pada bulan apa?"],
+      "responses" : ["Ikan terbang sudah mulai memijah pada bulan Februari dan Maret, puncak pemijahan pada bulan Juni dan Juli, dan berakhir pada bulan September dan Oktober"]
+    },
+    {
+      "tag" : "Habitat Ikan Terbang",
+      "patterns" : ["Habitat ikan terbang", "Dimana ikan terbang tinggal?", "Habitat ikan terbang itu dimana?"],
+      "responses" : ["Ikan terbang ditemukan di semua samudera utama, terutama di perairan tropis dan subtropis di samudera Atlantik, Pasifik, dan Hindia"]
+    },
+    {
+      "tag" : "Ikan Japuh",
+      "patterns" : ["Apa sih itu ikan japuh", "Apa itu ikan japuh?", "Ikan japuh itu apa?"],
+      "responses" : ["Ikan Japuh adalah ikan pelagis kecil yang hidup di daerah pelagis dekat pantai, bergerombol, dan menyukai perairan yang tenang.Ikan japuh memiliki badan memanjang, perut membulat, tidak ada skut, warna punggung hijau kebiru-biruan, perut warna perak serta sepanjangn tengah tengah sisi badan terdapat garis keemasan yang menjadi samar-samar pada ikan dewasa"]
+    },
+    {
+      "tag" : "Nama Latin Ikan Japuh",
+      "patterns" : ["Apa nama latinnya ikan japuh?", "Nama latinnya ikan japuh?", "Apa nama ilmiahnya ikan japuh?", "Nama ilmiah dari ikan japuh itu apa?"],
+      "responses" : ["Nama latin dari ikan japuh adalah Dussumieria acuta"]
+    },
+    {
+      "tag" : "Gizi Ikan Japuh",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan japuh?", "Kandungan gizi apa yang terdapat pada ikan japuh?", "Gizi yang terdapat pada ikan japuh?"],
+      "responses" : ["Kandungan gizi ikan japuh ini memiliki banyak gizi, seperti kalsium, zat besi, protein, fosfor, dan kalium"]
+    },
+    {
+      "tag" : "Harga Ikan Japuh",
+      "patterns" : ["Berapa harga 1 Kg ikan japuh?", "Harga 1 Kg ikan japuh?", "Berapa harga perkilo ikan japuh?"],
+      "responses" : ["Harga ikan japuh ini kisaran rata-rata Rp.15.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Japuh",
+      "patterns" : ["Apa makanan ikan japuh?", "Makanan ikan japuh", "Apa aja makanan dari ikan japuh?"],
+      "responses" : ["Ikan japuh termasuk kelompok planktivora yang makanan utamanya adalah Bacillario-phyceae"]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Japuh",
+      "patterns" : ["Klasifikasi ikan japuh?", "Apa aja klasifikasi ikan japuh?"],
+      "responses" : ["Klasifikasi dari ikan japuh adalah sebagai berikut : Filum = Chordata,Upaphylum = Vertebrata,Class = Actinopterygii,Ordo = Clupeiformes,Famili = Clupeidae,Genus = Dussumieria,Spesies = D. Acuta"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Japuh",
+      "patterns" : ["Bagaimana cara mengolah ikan japuh?", "Cara mengolah ikan japuh?", "Apa aja sih tips pengolahan ikan japuh?", "Tips mengolah ikan japuh?"],
+      "responses" : ["Ikan japuh ini bisa diolah dengan cara dijadikan orak arik, tumis ikan japuh dan digoreng setengah matang"]
+    },
+    {
+      "tag" : "Musim Ikan Japuh",
+      "patterns" : ["Kapan musim ikan japuh?", "Pada bulan apa musim ikan japuh?", "Kapan puncak ikan japuh?", "Puncak musim ikan japuh pada bulan apa?"],
+      "responses" : ["Musim ikan jaouh ini memijah pada musim kemarau dibulan April sampai bulan Oktober"]
+    },
+    {
+      "tag" : "Habitat Ikan Japuh",
+      "patterns" : ["Habitat ikan Japuh", "Dimana ikan japuh tinggal?", "Habitat ikan japuh itu dimana?"],
+      "responses" : ["Ikan japuh ini hidup bergerombol kecil, pada lapisan permukaan laut tidak jauh dari pantai dan tersebar luas di daerah Indo Pasifik"]
+    },
+    {
+      "tag" : "Ikan Kembung",
+      "patterns" : ["Apa sih itu ikan kembung", "Apa itu ikan kembung?", "Ikan kembung itu apa?"],
+      "responses" : ["Ikan kembung memiliki nama lokal Rumahan, Temenong, Mabong, Pelaling, Banyar. Ikan kembung memiliki karakteristik badan lonjong dan pipih. Ikan kembung jantan memiliki genus yang sama dengan kembung betina. Ciri yang membedakan adalah adanya satu bintik atau totol hitam dekat sirip dada pada ikan kembung jantan"]
+    },
+    {
+      "tag" : "Nama Latin Ikan Kembung",
+      "patterns" : ["Apa nama latinnya ikan kembung?", "Nama latinnya ikan kembung?", "Apa nama ilmiahnya ikan kembung?", "Nama ilmiah dari ikan kembung itu apa?"],
+      "responses" : ["Nama latin dari ikan kembung adalah Rastrelliger"]
+    },
+    {
+      "tag" : "Gizi Ikan Kembung",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan kembung?", "Kandungan gizi apa yang terdapat pada ikan kembung?", "Gizi yang terdapat pada ikan kembung?"],
+      "responses" : ["Ikan kembung memiliki kandungan protein yang tinggi. Selain itu ikan kembung memiliki kandungan berbagai vitamin, seperti vitamin B1, B2, B3, B6, B12, dan D yang baik untuk menjaga kesehatan selalu dalam kondisi optimal"]
+    },
+    {
+      "tag" : "Harga Ikan kembung",
+      "patterns" : ["Berapa harga 1 Kg ikan kembung?", "Harga 1 Kg ikan kembung?", "Berapa harga perkilo ikan kembung?"],
+      "responses" : ["Harga dari ikan kembung kisaran rata-rata Rp.25.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Kembung",
+      "patterns" : ["Apa makanan ikan kembung?", "Makanan ikan kembung", "Apa aja makanan dari ikan kembung?"],
+      "responses" : ["Makanan ikan kembung ini berupa makroorganisme meliputi ikan , udang, crustacea, bivalvia. Sedangkan makanan berupa mikroorganisme berupa zooplankton dan fotoplankton"]
+    },
+    {
+      "tag" : "Klasifikasi Ikan kembung",
+      "patterns" : ["Klasifikasi ikan kembung?", "Apa aja klasifikasi ikan kembung?"],
+      "responses" : ["Klasifikasi dari ikan kembung adalah sebagai berikut :Filum = Chordata,Class = Pisces,Ordo = Percomorphi,Famili = Scombridae,Genus = Rastrelliger, Spesies Jantan = Rastrelliger kanagurta,Spesies Betina = Rastrelliger brachysoma"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Kembung",
+      "patterns" : ["Bagaimana cara mengolah ikan kembung?", "Cara mengolah ikan kembung?", "Apa aja sih tips pengolahan ikan kembung?", "Tips mengolah ikan kembung?"],
+      "responses" : ["Ikan kembung ini bisa diolah berbagai macam masakan, seperti digoreng, di rica-rica, digoreng bumbu, dikukus"]
+    },
+    {
+      "tag" : "Musim Ikan Kembung",
+      "patterns" : ["Kapan musim ikan kembung?", "Pada bulan apa musim ikan kembung?", "Kapan puncak ikan kembung?", "Puncak musim ikan kembung pada bulan apa?"],
+      "responses" : ["Puncak musim ikan kembung terjadi pada bulan Januari"]
+    },
+    {
+      "tag" : "Habitat Ikan kembung",
+      "patterns" : ["Habitat ikan kembung", "Dimana ikan kembung tinggal?", "Habitat ikan kembung itu dimana?"],
+      "responses" : ["Ikan kembung hidup di perairan pantai maupun lepas pantai. Ikan kembung hidup bergerombol dan masuk perairan estuari untuk mencari makan"]
+    },
+    {
+      "tag" : "Ikan Siro",
+      "patterns" : ["Apa sih itu ikan siro?", "Apa itu ikan siro?", "Ikan siro itu apa?"],
+      "responses" : ["Ikan siro adalah bagian dari ikan pelagis kecil yang tertangkap menggunakan purse seine di perairan selat sunda. Ikan siro memiliki perbedaan yanng cukup signifikan jika dibandingkan dengan siro jantan dan siro betina dengan rasio sebesar 2,1:1. Ukuran ikan siro betina dan jantan  masing adalah 186mm dan 188 mm"]
+    },
+    {
+      "tag" : "Nama Latin Ikan Siro",
+      "patterns" : ["Apa nama latinnya ikan siro?", "Nama latinnya ikan siro?", "Apa nama ilmiahnya ikan siro?", "Nama ilmiah dari ikan siro itu apa?"],
+      "responses" : ["Nama latindari ikan siro adalah Amblygaster sirm"]
+    },
+    {
+      "tag" : "Gizi Ikan Siro",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan siro?", "Kandungan gizi apa yang terdapat pada ikan siro?", "Gizi yang terdapat pada ikan siro?"],
+      "responses" : ["Ikan siro ini memiliki kandungan gizi yang sangat baik, Ikan siro yang masuk keluarga ikan sardden ini mengandung EPA dan DHA. Kandungan EPA dan DHA ini memiliki potensi sebagai obat ataupun produk kesehatan"]
+    },
+    {
+      "tag" : "Harga Ikan Siro",
+      "patterns" : ["Berapa harga 1 Kg ikan siro?", "Harga 1 Kg ikan siro?", "Berapa harga perkilo ikan siro?"],
+      "responses" : ["Harga dari ikan siro ini kisaran rata-rata RP.20.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Siro",
+      "patterns" : ["Apa makanan ikan siro?", "Makanan ikan siro", "Apa aja makanan dari ikan siro?"],
+      "responses" : ["Ikan Siro ini tergolong pemakan plankton, salah satunya adalah fitoplankton"]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Siro",
+      "patterns" : ["Klasifikasi ikan siro?", "Apa aja klasifikasi ikan siro?"],
+      "responses" : ["Klasifikasi dari ikan siro adalah sebagai berikut : Filum = Chordata,Class = Pisces,Ordo = Clupeiformes,Famili = Clupeidae,Genus = Sardinella,Spesies = Sardinella sp."]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Siro",
+      "patterns" : ["Bagaimana cara mengolah ikan siro?", "Cara mengolah ikan siro?", "Apa aja sih tips pengolahan ikan siro?", "Tips mengolah ikan siro?"],
+      "responses" : ["Ikan Siro ini tergolong sama seperti ikan sarden, cara pengolahan ikan siro ini bisa dijadikan sebagai tambahan lauk tumis, sambal tomat, dikukus, dijadikan pindang ikan siro"]
+    },
+    {
+      "tag" : "Musim Ikan Siro",
+      "patterns" : ["Kapan musim ikan siro?", "Pada bulan apa musim ikan siro?", "Kapan puncak ikan siro?", "Puncak musim ikan siro pada bulan apa?"],
+      "responses" : ["Musim ikan siro memijah berlangsung pada bulan Mei sampai bulan Agustus dengan puncak pemijahan pada bulan Juli."]
+    },
+    {
+      "tag" : "Habitat Ikan Siro",
+      "patterns" : ["Habitat ikan siro", "Dimana ikan siro tinggal?", "Habitat ikan siro itu dimana?"],
+      "responses" : ["Ikan siro dapat ditemukan di sekitaran perairan selat jawa, sunda, dan perairan selat bali"]
+    },
+    {
+      "tag" : "Ikan Selar Hijau",
+      "patterns" : ["Apa sih itu ikan selar hijau?", "Apa itu ikan selar hijau?", "Ikan selar hijau itu apa?"],
+      "responses" : ["Ikan Selar Hijau memiliki fisik berupa tubuh yang cenderung oval dan berbentuk pipih. Ikan selar hijau mempunyai sisik tajam pada pangkal ekor dan punya garis garis hijau kekuningan yang samar. Ikan selar hijau mempunyai panjang rata-rata 26 cm dengan panjang maksimal 30 cm."]
+    },
+    {
+      "tag" : "Nama Latin Ikan Selar Hijau",
+      "patterns" : ["Apa nama latinnya ikan selar hijau?", "Nama latinnya ikan selar hijau?", "Apa nama ilmiahnya ikan selar hijau?", "Nama ilmiah dari ikan selar hijau itu apa?"],
+      "responses" : ["Nama latin dari ikan selar hijau adalah Atule mate"]
+    },
+    {
+      "tag" : "Gizi Ikan Selar Hijau",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan selar hijau?", "Kandungan gizi apa yang terdapat pada ikan selar hijau?", "Gizi yang terdapat pada ikan selar hijau?"],
+      "responses" : ["Ikan selar hijau memiliki banya kandungannya, seperti kalori, protein, kalsium, kolestrol, sodium, protasium dan vitamin D"]
+    },
+    {
+      "tag" : "Harga Ikan Selar Hijau",
+      "patterns" : ["Berapa harga 1 Kg ikan selar hijau?", "Harga 1 Kg ikan selar hijau?", "Berapa harga perkilo ikan selar hijau?"],
+      "responses" : ["Harga ikan selar hijau kisaran rata-rata Rp.45.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Selar Hijau",
+      "patterns" : ["Apa makanan ikan selar hijau?", "Makanan ikan selar hijau", "Apa aja makanan dari ikan selar hijau?"],
+      "responses" : ["Ikan Selar Hijau merupakan ikan karnivora yang memiliki kebiasaan makan berupa ikan ikan kecil dan crustacea"]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Selar Hijau",
+      "patterns" : ["Klasifikasi ikan selar hijau?", "Apa aja klasifikasi ikan selar hijau?"],
+      "responses" : ["Klasifikasi dari ikan selar hijau adalah sebagai berikut :Filum = Chordata, Kelas = Pisces,Ordo = Percomorphi,Famili = Scombridae,Genus = Caranx, Spesies = Caranx melamphygus"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Selar Hijau",
+      "patterns" : ["Bagaimana cara mengolah ikan selar hijau?", "Cara mengolah ikan selar hijau?", "Apa aja sih tips pengolahan ikan selar hijau?", "Tips mengolah ikan selar hijau?"],
+      "responses" : ["Ikan selar hijau ini bisa diolah bermacam-macam, bisa digoreng tepung, dijadikan sayur atau lauk seperti pepes ikan selar hijau"]
+    },
+    {
+      "tag" : "Musim Ikan Selar Hijau",
+      "patterns" : ["Kapan musim ikan selar hijau?", "Pada bulan apa musim ikan selar hijau?", "Kapan puncak ikan selar hijau?", "Puncak musim ikan selar hijau pada bulan apa?"],
+      "responses" : ["Musim ikan selar hijau ini berlangsung sepanjang tahun, antara bulan Juli-Maret, dengan dua puncak yaitu antara bulan Juli sampai Oktober dan bulan Januari sampai April"]
+    },
+    {
+      "tag" : "Habitat Ikan Selar Hijau",
+      "patterns" : ["Habitat ikan selar hijau", "Dimana ikan selar hijau tinggal?", "Habitat ikan selar hijau itu dimana?"],
+      "responses" : ["Ikan selar hijau menyebar diseluruh perairan Indonesia, Teluk Bangka, Teluk Siam, sepanjang laut China selatan"]
+    },
+    {
+      "tag" : "Ikan Selar Kuning",
+      "patterns" : ["Apa sih itu ikan selar kuning?", "Apa itu ikan selar kuning?", "Ikan selar kuning itu apa?"],
+      "responses" : ["Ikan selar kuning memiliki panjang maksimum 22 cm dan rata-rata 15 cm. Bentuk badan pipih, lonjong dan memanjang, sirip punggung dan sirip anal tanpa sirip tambahan, tidak terdapat gigi pada rahang bagian atas, sisik yang menebal retaif besar, terdapat sebuah garis kuning lebar"]
+    },
+    {
+      "tag" : "Nama Latin Ikan Selar Kuning",
+      "patterns" : ["Apa nama latinnya ikan selar kuning?", "Nama latinnya ikan selar kuning?", "Apa nama ilmiahnya ikan selar kuning?", "Nama ilmiah dari ikan selar kuning itu apa?"],
+      "responses" : ["Nama latindari ikan selar kuning adalah Selaroides leptolepis"]
+    },
+    {
+      "tag" : "Gizi Ikan Selar Kuning",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan selar kuning?", "Kandungan gizi apa yang terdapat pada ikan selar kuning?", "Gizi yang terdapat pada ikan selar kuning?"],
+      "responses" : ["Ikan selar kuning memiliki kandungan yang baik untuk tubuh, seperti kalsium dan fosfor"]
+    },
+    {
+      "tag" : "Harga Ikan Selar Kuning",
+      "patterns" : ["Berapa harga 1 Kg ikan selar kuning?", "Harga 1 Kg ikan selar kuning?", "Berapa harga perkilo ikan selar kuning?"],
+      "responses" : ["Harga ikan selar kuning kisaran rata-rata Rp.12.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan Selar Kuning",
+      "patterns" : ["Apa makanan ikan selar kuning?", "Makanan ikan selar kuning", "Apa aja makanan dari ikan selar kuning?"],
+      "responses" : ["Ikan Selar kuning merupakan ikan karnivora yang memiliki kebiasaan makan berupa ikan ikan kecil dan crustacea"]
+    },
+    {
+      "tag" : "klasifikasi Ikan Selar Kuning",
+      "patterns" : ["Klasifikasi ikan selar kuning?", "Apa aja klasifikasi ikan selar kuning?"],
+      "responses" : ["Klasifikasi dari ikan selar kuning adalah sebagai berikut :Filum = Chordata,Kelas = Pisces,Ordo = Percomorphi,Famili = Scombridae,Genus = Caranx, Spesies = Caranx melamphygus"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Selar Kuning",
+      "patterns" : ["Bagaimana cara mengolah ikan selar kuning?", "Cara mengolah ikan selar kuning?", "Apa aja sih tips pengolahan ikan selar kuning?", "Tips mengolah ikan selar kuning?"],
+      "responses" : ["Ikan selar kuning ini bisa diolah bermacam-macam, bisa digoreng tepung, dijadikan sayur atau lauk seperti pepes ikan selar kuning"]
+    },
+    {
+      "tag" : "Musim Ikan Selar Kuning",
+      "patterns" : ["Kapan musim ikan selar Kuning?", "Pada bulan apa musim ikan selar kuning?", "Kapan puncak ikan selar kuning?", "Puncak musim ikan selar kuning pada bulan apa?"],
+      "responses" : ["Musim pemijahan ikan selar kuning terjadi pada bulan Mei dan puncak pemijahan pada akhir bulan Mei dan awal bulan Juni"]
+    },
+    {
+      "tag" : "Habitat Ikan Selar Hijau",
+      "patterns" : ["Habitat ikan selar kuning", "Dimana ikan selar kuning tinggal?", "Habitat ikan selar kuning itu dimana?"],
+      "responses" : ["Ikan selar hijau menyebar diseluruh perairan Indonesia, Teluk Bangka, Teluk Siam, sepanjang laut China selatan"]
+    },
+    {
+      "tag" : "Ikan Tembang",
+      "patterns" : ["Apa sih itu ikan tembang?", "Apa itu ikan tembang?", "Ikan tembang itu apa?"],
+      "responses" : ["Ikan tembang memiliki rangka terdiri dari tulang benar dan bertutup insang. Kepala simetris, badan tidak seperti ular, dan seluruh sisik tidak terbungkus dalam kelopak tebal. Bagian ekor tidak bercincin, dan hidung tidak memanjang ke depan"]
+    },
+    {
+      "tag" : "Nama Latin ikan Tembang",
+      "patterns" : ["Apa nama latinnya ikan tembang?", "Nama latinnya ikan tembang?", "Apa nama ilmiahnya ikan tembang?", "Nama ilmiah dari ikan tembang itu apa?"],
+      "responses" : ["Nama latin dari ikan tembang adalah Sardinella"]
+    },
+    {
+      "tag" : "Gizi Ikan Tembang",
+      "patterns" : ["Kandungan gizi yang terdapat pada ikan tembang?", "Kandungan gizi apa yang terdapat pada ikan tembang?", "Gizi yang terdapat pada ikan tembang?"],
+      "responses" : ["Ikan tembang memiliki banyak kandungan gizi, seperti zat besi, protein, fosfor, tembaga, dan seng"] 
+    },
+    {
+      "tag" : "Harga Ikan Tembang",
+      "patterns" : ["Berapa harga 1 Kg ikan tembang?", "Harga 1 Kg ikan tembang?", "Berapa harga perkilo ikan tembang?"],
+      "responses" : ["Harga ikan tembang kisaran rata-rata Rp.7.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ikan tembang",
+      "patterns" : ["Apa makanan ikan tembang?", "Makanan ikan tembang", "Apa aja makanan dari ikan tembang?"],
+      "responses" : ["Ikan tembang kebiasaan makan makanan seperti Ochrophyta dan makanan tambahan Arthropoda, Cyanobacteria, Cnidaria, Protozoa, dan Actinopoda"]
+    },
+    {
+      "tag" : "Klasifikasi Ikan Tembang",
+      "patterns" : ["Klasifikasi ikan tembang?", "Apa aja klasifikasi ikan tembang?"],
+      "responses" : ["Klasifikasi dari ikan tembang adalah sebagai berikut :Filum = Chordata,Class = Actinopterygii,Ordo = Clupeiformes,Famili = ClupeidaeGenus = Sardinella,Spesies = Sardinella fimbriata Valenciennes"]
+    },
+    {
+      "tag" : "Tips Pengolahan Ikan Tembang",
+      "patterns" : ["Bagaimana cara mengolah ikan tembang?", "Cara mengolah ikan tembang?", "Apa aja sih tips pengolahan ikan tembang?", "Tips mengolah ikan tembang?"],
+      "responses" : ["Ikan tembang bisa diolah dengan cara dihoreng tepung, digoreng bumbu, dikukus"]
+    },
+    {
+      "tag" : "Musim Ikan Tembang",
+      "patterns" : ["Kapan musim ikan tembang?", "Pada bulan apa musim ikan tembang?", "Kapan puncak ikan tembang?", "Puncak musim ikan tembang pada bulan apa?"],
+      "responses" : ["Musim ikan penangkapan ikan tembang terjadi pada bulan Mei sampai September"]
+    },
+    {
+      "tag" : "Habitat Ikan Tembang",
+      "patterns" : ["Habitat ikan siro", "Dimana ikan tembang tinggal?", "Habitat ikan tembang itu dimana?"],
+      "responses" : ["Ikan tembang hidup di perairan utara jawa dan sulawesi yang merupakan daerah penangkapan potensial untuk ikan ini"]
+    },
+  
+  
+    {
+      "tag": "Ikan kwe",
+      "patterns" : [ "Apa itu ikan kwe ?","ikan kwe itu apa?","Apa sih ikan kwe?","Apa itu ikan kwe ?","ikan kwe itu apa?","Apa sih ikan kwe?","Apa itu ikan kwe ?","ikan kwe itu apa?","Apa sih ikan kwe?"],
+      "responses" : ["Ikan kwe berbentuk oval dan pipih. Warna tubuhnya bervariasi, yaitu biru bagian atas dan perak hingga keputih-putihan di bagian bawah. Tubuh ditutupi sisik halus berbentuk sikloid. Sisiknya kecil dengan gurat sisi yang bercabang. Di bagian dada sisiknya berkurang atau tidak ada. Terdapat tiga duri, dua yang pertama terpisah dari sirip yang diam. Sirip ekornya berjagak"]
+    },
+    {
+      "tag" : "Nama latin Ikan kwe ",
+      "patterns" : ["Apa nama latin Ikan kwe ?","Nama latin Ikan kwe ?","Apa Sih nama latin dari ikan kwe ?","Nama latin dari ikan kwe apa ?","Nama latin dari ikan kwe itu apa?","Ikan kwe nama latinnya apa?", "Apa nama lain dari ikan kwe ?", "Nama ilmiah ikan kwe ?",
+        "Apa nama latin Ikan kwe ?","Nama latin Ikan kwe ?","Apa Sih nama latin dari ikan kwe ?","Nama latin dari ikan kwe apa ?","Nama latin dari ikan kwe itu apa?","Ikan kwe nama latinnya apa?", "Apa nama lain dari ikan kwe ?", "Nama ilmiah ikan kwe ?",
+        "Apa nama latin Ikan kwe ?","Nama latin Ikan kwe ?","Apa Sih nama latin dari ikan kwe ?","Nama latin dari ikan kwe apa ?","Nama latin dari ikan kwe itu apa?","Ikan kwe nama latinnya apa?", "Apa nama lain dari ikan kwe ?", "Nama ilmiah ikan kwe ?"
+      ],
+      "responses" : [
+        "nama latin dari ikan  adalah Caranx ignobilis",
+        "Ikan  memiliki nama latin adalah Caranx ignobilis"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan kwe",
+      "patterns" : ["Gizi yang terkandung dalam ikan kwe ","Apa gizi dari ikan kwe ?","Gizi apa yang dimiliki ikan kwe ?","Kandungan gizi apa yang terdapat pada ikan kwe ?","Gizi apa yang dimiliki ikan kwe ?",
+        "Gizi yang terkandung dalam ikan kwe ","Apa gizi dari ikan kwe ?","Gizi apa yang dimiliki ikan kwe ?","Kandungan gizi apa yang terdapat pada ikan kwe ?","Gizi apa yang dimiliki ikan kwe ?",
+        "Gizi yang terkandung dalam ikan kwe ","Apa gizi dari ikan kwe ?","Gizi apa yang dimiliki ikan kwe ?","Kandungan gizi apa yang terdapat pada ikan kwe ?","Gizi apa yang dimiliki ikan kwe ?"
+      ],
+      "responses" : ["Menurut Ahli gizi Dr. Rita Ramayulis, DCN, M.Kes menyebutkan jika ikan kwe jika dibandingkan dengan jenis - jenis ikan lainnya memiliki keunggulan pada kandungan protein yang relatif tinggi. Selain itu, komposisi asam amino pada ikan kwe juga terbilang sangat lengkap. Manfaatnya ikan kwe bagi tubuh manusia dilihat dari kandungan gizi ikan kwe dimana kandungan protein tinggi dan komposisi asam amino yang lengkap membuat ikan kwe bermanfaat bagi pertumbuhan dan pemeliharaan jaringan tubuh manusia. Tidak sampai disitu, karena komposisi asam amino yang lengkap ikan kwe dapat menstimulasi hormon serotonin dimana hormon ini bertanggung jawab dalam pengendalian stress. Jadi mengkonsumsi ikan kwe juga bisa menjadi penangkal stres."]
+    },
+    {
+      "tag" : "Harga Ikan ",
+      "patterns" : ["Berapa harga 1 KG ikan kwe?","Harga 1 KG ikan kwe?", "Berapa harga ikan kwe?",
+        "Berapa harga 1 KG ikan kwe?","Harga 1 KG ikan kwe?", "Berapa harga ikan kwe?",
+        "Berapa harga 1 KG ikan kwe?","Harga 1 KG ikan kwe?", "Berapa harga ikan kwe?"
+      ],
+      "responses" : [" Harga ikan kwe kisaran Rp55.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan kwe ",
+      "patterns" : ["Apa makanan ikan kwe?", "makanan ikan kwe?","ikan kwe makannya apa?", "ikan kwe makanannya apa?",
+        "Apa makanan ikan kwe?", "makanan ikan kwe?","ikan kwe makannya apa?", "ikan kwe makanannya apa?",
+        "Apa makanan ikan kwe?", "makanan ikan kwe?","ikan kwe makannya apa?", "ikan kwe makanannya apa?"
+      ],
+      "responses" : ["Ikan kwe aktif mencari makan pada mal+++am hari, biasanya memakan jenis ikan dan krustacea."]
+    },
+    {
+      "tag" : "klasifikasi ikan kwe",
+      "patterns" : ["klasifikasi ikan kwe","klasifikasi ikan kwe", "klasifikasi ikan kwe"],
+      "responses" : ["Kingdom: Animalia, Filum: Chordata, Class: Actinopterygii, Ordo: Perciformes, Upaordo: Percoidei, Family: Carangidae, Super Family: Percoidea, Genus: Caranx, Species: C. Ignobilis"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan kwe",
+      "patterns" : ["cara mengolah ikan kwe?","Bagaimana cara mengolah ikan kwe?", "Tips mengolah ikan kwe?", "Bagaimana pengolahan Ikan kwe?",
+        "cara mengolah ikan kwe?","Bagaimana cara mengolah ikan kwe?", "Tips mengolah ikan kwe?", "Bagaimana pengolahan Ikan kwe?",
+        "cara mengolah ikan kwe?","Bagaimana cara mengolah ikan kwe?", "Tips mengolah ikan kwe?", "Bagaimana pengolahan Ikan kwe?"
+      ],
+      "responses" : ["Ikan kwe biasa diolah dengan cara dibakar dan disajikan dengan sambal kecap."]
+    },
+    {
+      "tag" : "Musim Ikan kwe",
+      "patterns" : ["Pada bulan apa musim Ikan kwe?", "Kapan musim Ikan kwe?", "Kapan puncak musim Ikan kwe?",
+        "Pada bulan apa musim Ikan kwe?", "Kapan musim Ikan kwe?", "Kapan puncak musim Ikan kwe?",
+        "Pada bulan apa musim Ikan kwe?", "Kapan musim Ikan kwe?", "Kapan puncak musim Ikan kwe?"
+      ],
+      "responses" : ["Musim penangkapan ikan kwe terjadi pada bulan Desember, April, November, September, Januari, dan Juni (102,68%)."]
+    },
+    {
+      "tag"  : "Habitat Ikan kwe",
+      "patterns" : ["Dimana habitat ikan kwe?", "Habitat ikan kwe", "Dimana Ikan kwe tinggal?",
+        "Dimana habitat ikan kwe?", "Habitat ikan kwe", "Dimana Ikan kwe tinggal?",
+        "Dimana habitat ikan kwe?", "Habitat ikan kwe", "Dimana Ikan kwe tinggal?"
+      ],
+      "responses" : ["Tergantung dari spesiesnya, habitat dari ikan Kuwe sangat beragam, dari pantai sampai laut lepas (oseanik) dan dari yang bersifat pelagis sampai mendekati dasar (demersal)"]
+    },
+
+    {
+      "tag": "Ikan bawal hitam ",
+      "patterns" : [ "Apa itu ikan bawal hitam?","ikan bawal hitam itu apa?","Apa sih ikan bawal hitam?"],
+      "responses" : ["Ikan bawal hitam merupakan ikan yang suka menyendiri. Ikan ini mempunyai bentuk tubuh terlihat pipih dan jika diperhatikan akan nampak seperti belah ketupat. Ikan bawal hitam memiliki warna pada tubuh yang sedikit keunguan dan juga abu-abu yang terlihat di bagian atas dengan warna putih yang seperti perak. Nilai jual ikan ini cukup tinggi di pasaran karena termasuk dalam jenis ikan yang memiliki tekstur daging lebih halus."]
+    },
+    {
+      "tag" : "Nama latin Ikan bawal hitam",
+      "patterns" : ["Apa nama latin Ikan bawal hitam ?","Nama latin Ikan bawal hitam?","Apa Sih nama latin dari ikan bawal hitam?","Nama latin dari ikan bawal hitam apa ?","Nama latin dari ikan bawal hitam itu apa?","Ikan bawal hitam nama latinnya apa?", "Apa nama lain dari ikan bawal hitam ?", "Nama ilmiah ikan bawal hitam?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Formio niger",
+        "Ikan  memiliki nama latin adalah Formio niger"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan bawal hitam",
+      "patterns" : ["Gizi yang terkandung dalam ikan bawal hitam","Apa gizi dari ikan bawal hitam?","Gizi apa yang dimiliki ikan bawal hitam?","Kandungan gizi apa yang terdapat pada ikan bawal hitam?","Gizi apa yang dimiliki ikan bawal hitam?"],
+      "responses" : ["ikan bawal hitam ini tinggi akan nutrisi, seperti asam lemak omega 3, omega 6, vitamin A, vitamin B1, dan vitamin D. Berbagai nutrisi ini dapat bermanfaat bagi pertumbuhan otak janin, menurunkan kadar lemak darah, dan menurunkan risiko demensia."]
+    },
+    {
+      "tag" : "Harga Ikan bawal hitam",
+      "patterns" : ["Berapa harga 1 KG ikan bawal hitam ?","Harga 1 KG ikan bawal hitam?", "Berapa harga ikan bawal hitam?"],
+      "responses" : [" Harga ikan bawal hitam kisaran Rp50.000 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan bawal hitam",
+      "patterns" : ["Apa makanan ikan bawal hitam?", "makanan ikan hitam?", "makanan ikan bawal hitam"],
+      "responses" : [" Makanan ikan bawal hitam yaitu dengan memakan ikan kecil dan plankton kasar (invertebrate) yang ada di sekitar habitatnya"]
+    },
+    {
+      "tag" : "klasifikasi ikan bawal hitam",
+      "patterns" : ["klasifikasi ikan bawal hitam?","klasifikasi ikan bawal hitam"],
+      "responses": ["Ikan Bawal Hitam (black pomfret) termasuk ordo perciformes, family Stroimatidae, genus Stromateus, species Stromateus niger"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan bawal hitam",
+      "patterns" : ["cara mengolah ikan bawal hitam?","Bagaimana cara mengolah ikan bawal hitam?", "Tips mengolah ikan bawal hitam", "Bagaimana pengolahan Ikan bawal hitam"],
+      "responses" : ["Ikan bawal hitam bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan bawal hitam",
+      "patterns" : ["Pada bulan apa musim Ikan bawal hitam?”, “Kapan musim Ikan bawal hitam?", "Kapan puncak musim Ikan bawal hitam?", "musim ikan bawal hitam"],
+      "responses" : ["Biasanya nelayan akan menangkap ikan bawal hitam saat musim angin timur yang terjadi pada bulan April hingga Oktober"] 
+    },
+    {
+      "tag"  : "Habitat Ikan bawal hitam",
+      "patterns" : ["Dimana habitat ikan bawal hitam?", "Habitat ikan bawal hitam", "Dimana Ikan bawal hitam tinggal?"],
+      "responses" : ["Ikan bawal hitam termasuk kedalam ikan pelagis, Ikan muda berada di daerah Bakau, Estuari dan Terumbu Karang bagian dalam. ikan dewasa tersebar luas dari Pantai sampai Laut lepas"]
+    },
+  
+    {
+      "tag": "Ikan bawal putih",
+      "patterns" : [ "Apa itu ikan bawal putih?","ikan bawal putih itu apa?","Apa sih ikan bawal putih?","ikan bawal putih","bawal putih"],
+      "responses" : ["Bawal putih sering juga disebut sebagai ikan loang atau ikan darah. Warna tubuh ikan bawal putih adalah abu-abu pada bagian atas dan semakin ke bawah berwarna putih, bentuk tubuhnya pipih, tulang rahang bawahnya berakhir pada mata bagian bawah. Seluruh sirip ikan bawal putih berwarna kuning pucat, pada sirip punggung dan sirip perut bagian tepinya berwarna kehitaman."]
+    },
+    {
+      "tag" : "Nama latin Ikan bawal putih ",
+      "patterns" : ["Apa nama latin Ikan bawal putih?","Nama latin Ikan bawal putih?","Apa Sih nama latin dari ikan bawal putih?","Nama latin dari ikan bawal putih apa ?","Nama latin dari ikan bawal putih itu apa?","Ikan bawal putih nama latinnya apa?", "Apa nama lain dari ikan bawal putih?", "Nama ilmiah ikan bawal putih?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Pampus argenteus",
+        "Ikan  memiliki nama latin adalah Pampus argenteus"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan bawal putih",
+      "patterns" : ["Gizi yang terkandung dalam ikan bawal putih","Apa gizi dari ikan bawal putih?","Gizi apa yang dimiliki ikan bawal putih?","Kandungan gizi apa yang terdapat pada ikan bawal putih?","Gizi apa yang dimiliki ikan bawal putih?"],
+      "responses" : ["Ikan bawal putih memiliki gizi Omega-3, vitamin (B2 dan D), kalsium, fosfor, dan mineral (zat besi, seng, yodium, magnesium, dan kalium)."]
+    },
+    {
+      "tag" : "Harga Ikan bawal putih",
+      "patterns" : ["Berapa harga 1 KG ikan bawal putih?","Harga 1 KG ikan bawal putih?", "Berapa harga ikan bawal putih?","harga bawal putih"],
+      "responses" : ["Harga ikan bawal putih kisaran Rp110,000"]
+    },
+    {
+      "tag" : "Makanan ikan bawal putih",
+      "patterns" : ["Apa makanan ikan bawal putih?”, “makanan ikan bawal putih?"],
+      "responses" : ["Ikan bawal putih memakan plankton kasar udang maupun berbagai jenis ikan-ikan kecil."]
+    },
+    {
+      "tag" : "klasifikasi ikan ",
+      "patterns" : ["klasifikasi ikan bawal putih?"],
+      "responses" : ["Ikan bawal putih termasuk ke dalam kingdom: Animalia, Filum: Chordata, Subfilum: Vertebrata, Kelas: Actinopterygii, Ordo: Perciformes, Famili: Bramidae, Genus: Pampus, Spesies: Pampus argenteu"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan bawal putih",
+      "patterns" : ["cara mengolah ikan bawal putih?","Bagaimana cara mengolah ikan bawal putih?", "Tips mengolah ikan bawal putih", "Bagaimana pengolahan Ikan bawal putih"],
+      "responses" : ["Ikan bawal putih bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan bawal putih",
+      "patterns" : ["Pada bulan apa musim Ikan bawal putih?”, “Kapan musim Ikan bawal putih?", "Kapan puncak musim Ikan bawal putih?"],
+      "responses" : ["Musim Peralihan 2 merupakan waktu yang tepat untuk menangkap ikan bawal putih yang terjadi pada bulan September, Oktober, dan Desember."]
+    },
+    {
+      "tag"  : "Habitat Ikan bawal putih",
+      "patterns" : ["Dimana habitat ikan bawal putih?", "Habitat ikan bawal putih", "Dimana Ikan bawal putih tinggal?", "habitat ikan bawal putih"],
+      "responses" : ["Ikan bawal putih termasuk kedalam ikan demersal"]
+    },
+  
+    {
+      "tag": "Ikan golok-golok",
+      "patterns" : [ "Apa itu ikan golok-golok?","ikan golok-golok itu apa?","Apa sih ikan golok-golok?"],
+      "responses" : ["Ikan ini disebut parang-parang karena bentuk tubuhnya yang panjang seperti parang yang mengkilap, dengan warna tubuh yang keperak-perakan. Sisiknya sangat halus dengan bagian atas agak batu, bagian tengah keperak-perakan. Bagian belakang badan kecuali di bagian kepalanya terdapat lekukan dan cekungan. Sirip punggung terletak jauh di belakang badan, pangkalnya hanya di depan sedikit dari sirip dubur. Jari-jari sirip dubur terletak jauh dan bertaut antara satu sama lain. Sirip ekor bercagak, sirip perut di tengah-tengah antara kepala dan batang ekor. Sirip dada bisa lebih panjang dari kepala dan terletak di profil perut. Tekaknya bersudut dan satu bercak hitam ditemukan di bagian ekor. Sisik yang halus bertipe cycloid dengan sirip dada bertipe abdominal serta sirip ekor homoserkal."]
+    },
+    {
+      "tag" : "Nama latin Ikan golok-golok",
+      "patterns" : ["Apa nama latin Ikan golok-golok?","Nama latin Ikan golok-golok?","Apa Sih nama latin dari ikan golok-golok?","Nama latin dari ikan golok-golok apa ?","Nama latin dari ikan golok-golok itu apa?","Ikan golok-golok nama latinnya apa?", "Apa nama lain dari ikan golok-golok?", "Nama ilmiah ikan golok-golok?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Chirocentrus dorab",
+        "Ikan  memiliki nama latin adalah Chirocentrus dorab"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan golok-golok",
+      "patterns" : ["Gizi yang terkandung dalam ikan golok-golok","Apa gizi dari ikan golok-golok?","Gizi apa yang dimiliki ikan golok-golok?","Kandungan gizi apa yang terdapat pada ikan golok-golok?","Gizi apa yang dimiliki ikan golok-golok?"],
+      "responses" : ["Kandungan gizi ikan parang-parang menurut Nurnadia et al (2011), Kadar air 80,32%, protein 20,83%, lemak 1,22%, dan abu 1,39%."]
+    },
+    { 
+      "tag" : "Harga Ikan golok-golok",
+      "patterns" : ["Berapa harga 1 KG ikan golok-golok?","Harga 1 KG ikan golok-golok?", "Berapa harga ikan golok-golok?"],
+      "responses" : ["Harga ikan golok-golok dipasar kisaran Rp20,000"]
+    },
+    {
+      "tag" : "Makanan ikan golok-golok",
+      "patterns" : ["Apa makanan ikan golok-golok?”, “makanan ikan golok-golok?"],
+      "responses" : ["Ikan golok-golok merupakan ikan karnivor yang memakan ikan yang lebih kecil darinya"]
+    },
+    {
+      "tag" : "klasifikasi ikan golok-golok",
+      "patterns" : ["klasifikasi ikan golok-golok"],
+      "responses" : ["Ikan golok-golok berasal dari Ordo Malacopterygii, Famili Chirocentridae dari Genus Chirocentrus."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan ",
+      "patterns" : ["cara mengolah ikan golok-golok?","Bagaimana cara mengolah ikan golok-golok?", "Tips mengolah ikan golok-golok", "Bagaimana pengolahan Ikan golok-golok"],
+      "responses" : ["Ikan golok-golok biasanya diolah menjadi masakan berkuah seperti asam manis, gulai dan sebagainya. Selain itu, ikan golok-golok juga biasanya diolah menjadi pempek."]
+    },
+    {
+      "tag" : "Musim Ikan golok-golok",
+      "patterns" : ["Pada bulan apa musim Ikan golok-golok?”, “Kapan musim Ikan golok-golok?", "Kapan puncak musim Ikan golok-golok?"],
+      "responses" : ["Ikan golok-golok biasanya ditangkap pada awal musim angin timur yaitu disekitaran bulan April."]
+    },
+    {
+      "tag"  : "Habitat Ikan golok-golok",
+      "patterns" : ["Dimana habitat ikan golok-golok?", "Habitat ikan golok-golok", "Dimana Ikan golok-golok tinggal?"],
+      "responses" : ["Ikan golok-golok merupakan ikan pelagis."]
+    },
+  
+    {
+      "tag": "Ikan peperek",
+      "patterns" : [ "Apa itu ikan peperek?","ikan peperek itu apa?","Apa sih ikan peperek?","ikan peperek","peperek"],
+      "responses" : ["Ikan peperek adalah nama umum bagi jenis-jenis ikan yang tergolong dalam suku Leiognathidae. Ikan-ikan ini umumnya bertubuh kecil, pipih tegak, dan berwarna keperak-perakan, serta memiliki mulut yang dapat dijulurkan."]
+    },
+    {
+      "tag" : "Nama latin Ikan peperek ",
+      "patterns" : ["Apa nama latin Ikan peperek","Nama latin Ikan peperek?","Apa Sih nama latin dari ikan peperek?","Nama latin dari ikan peperek apa ?","Nama latin dari ikan peperek itu apa?","Ikan peperek nama latinnya apa?", "Apa nama lain dari ikan peperek?", "Nama ilmiah ikan peperek?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Leiognathidae",
+        "Ikan  memiliki nama latin adalah Leiognathidae"
+      ]       
+    },
+    {
+      "tag" : "Gizi Ikan peperek",
+      "patterns" : ["Gizi yang terkandung dalam ikan peperek","Apa gizi dari ikan peperek?","Gizi apa yang dimiliki ikan peperek?","Kandungan gizi apa yang terdapat pada ikan peperek?","Gizi apa yang dimiliki ikan peperek?"],
+      "responses" : ["Berdasarkan data Kemenkes RI (TKPI), setiap 100 gram ikan peperek mentah mengandung 120 mg kalsium, 32,0 gram protein, 2,4 mg niasin dan 200 mg fosfor. Ini menunjukkan bahwa kandungan kalsium, protein, niasin dan fosfor termasuk tinggi dan cukup tinggi."]
+    },
+    {
+      "tag" : "Harga Ikan peperek",
+      "patterns" : ["Berapa harga 1 KG ikan peperek?","Harga 1 KG ikan peperek?", "Berapa harga ikan peperek?","harga peperek"],
+      "responses" : ["Harga ikan peperek Rp3000/kg, namun apabila dalam bentuk ikan asin, ikan peperek ini memiliki nilai jual yang lebih tinggi."]
+    },
+    {
+      "tag" : "Makanan ikan peperek",
+      "patterns" : ["Apa makanan ikan peperek?”, “makanan ikan peperek?"],
+      "responses" : ["Ikan peperek merupakan jenis ikan omnivora dengan makanan utamanya yaitu fitoplankton maupun zooplankton, makanan pelengkapnya molluska dan krustasea dan makanan tambahannya polychaeta, larva bivalva dan larva gastropoda."]
+    },
+    {
+      "tag" : "klasifikasi ikan peperek",
+      "patterns" : ["klasifikasi ikan peperek"],
+      "responses" : ["Ikan peperek termasuk ke dalam Filum : Chordata, Kelas : Pisces, Subkelas : Teleostei, Ordo : Percomorphi, Subordo : Percoidea, Divisi : Perciformes, Famili : Leiognathidae"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan peperek",
+      "patterns" : ["cara mengolah ikan peperek?","Bagaimana cara mengolah ikan peperek?", "Tips mengolah ikan peperek", "Bagaimana pengolahan Ikan peperek"],
+      "responses" : ["Ikan peperek biasanya dijual dipasaran dalam bentuk olahan ikan asin, oleh karena itu, digoreng merupakan cara yang paling tepat untuk menyajikan ikan peperek ini."]
+    },
+    {
+      "tag" : "Musim Ikan peperek",
+      "patterns" : ["Pada bulan apa musim Ikan peperek?”, “Kapan musim Ikan peperek?", "Kapan puncak musim Ikan peperek?"],
+      "responses" : ["Puncak musim ikan peperek biasanya pada kisaran bulan Januari."]    
+    },
+    {
+      "tag"  : "Habitat Ikan peperek",
+      "patterns" : ["Dimana habitat ikan peperek?", "Habitat ikan peperek", "Dimana Ikan peperek tinggal?", "habitat ikan peperek"],
+      "responses" : ["Ikan peperek termasuk kedalam ikan demersal"]
+    },
+  
+    {
+      "tag": "Ikan lencam",
+      "patterns" : [ "Apa itu ikan lencam?","ikan lencam itu apa?","Apa sih ikan lencam?","ikan lencam","lencam"],
+      "responses" : ["Ikan lencam merupakan ikan yang memiliki warna tubuh yang  bervariasi sela jenis, tetapi telah tersedia beberapa jenis dapat berganti dengan cepat. Bangun-bangunnya nyaris mirip dengan lutjanidae, tapi mempunyai kepala lebih kurang runcing. Panjangnya dapat mencapai 1 meter. Ikan ini merupakan karnivora dengan memakan bermacam binatang pada pasir dan patahan karang (rubbel). Jenis ini sering ditemukan pada pasir dan patahan karang (rubbel) pada kawasan tubir. Kawasan persebaran Ikan lencam di perairan dangkal Indo-Pasifik."]
+    },
+    {
+      "tag" : "Nama latin Ikan lencam",
+      "patterns" : ["Apa nama latin Ikan lencam?","Nama latin Ikan lencam?","Apa Sih nama latin dari ikan lencam?","Nama latin dari ikan lencam apa ?","Nama latin dari ikan lencam itu apa?","Ikan lencam nama latinnya apa?", "Apa nama lain dari ikan lencam?", "Nama ilmiah ikan lencam?"],
+      "responses" : [
+        "nama latin dari ikan lencam adalah Lethrinidae ",
+        "Ikan  memiliki nama latin adalah Lethrinidae"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan lencam",
+      "patterns" : ["Gizi yang terkandung dalam ikan lencam","Apa gizi dari ikan lencam?","Gizi apa yang dimiliki ikan lencam?","Kandungan gizi apa yang terdapat pada ikan lencam?","Gizi apa yang dimiliki ikan lencam?"],
+      "responses" : ["Ikan lencam (Lethrinus lentjan) merupakan salah satu jenis ikan laut yang bernilai ekonomis dengan kandungan protein sebesar 14-24%, sehingga berpotensi untuk menjadi hidrolisat protein ikan dengan nilai tambah antioksidan."]
+    },
+    {
+      "tag" : "Harga Ikan lencam",
+      "patterns" : ["Berapa harga 1 KG ikan lencam?","Harga 1 KG ikan lencam?", "Berapa harga ikan lencam?","harga lencam"],
+      "responses" : ["Harga ikan lencam kisaran Rp Rp42,000"]
+    },
+    {
+      "tag" : "Makanan ikan lencam",
+      "patterns" : ["Apa makanan ikan lencam?”, “makanan ikan lencam?"],
+      "responses" : ["Ikan lencam merupakan karnivora dengan memakan bermacam hewan pada pasir dan patahan karang (rubbel)."]
+    },
+    {
+      "tag" : "klasifikasi ikan lencam",
+      "patterns" : ["klasifikasi ikan lencam?"],
+      "responses" : ["Ikan lencam termasuk kedalam Famili : Lethrinidae, Genus : Lethrinus, terdiri dari beberapa spesies :Lethrinus erythropterus, Lethrinus harak, Lethrinus obsoletus, Lethrinus olivaceus"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan lencam",
+      "patterns" : ["cara mengolah ikan lencam?","Bagaimana cara mengolah ikan lencam?", "Tips mengolah ikan lencam", "Bagaimana pengolahan Ikan lencam"],
+      "responses" : ["Ikan ikan lencam bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan lencam",
+      "patterns" : ["Pada bulan apa musim Ikan lencam?”, “Kapan musim Ikan lencam?", "Kapan puncak musim Ikan lencam?"],
+      "responses" : ["Musim penangkapan ikan lencam mengalami puncaknya terutama terjadi pada bulan Juni sampai dengan Agustus."]
+    },
+    {
+      "tag"  : "Habitat lencam",
+      "patterns" : ["Dimana habitat ikan lencam?", "Habitat ikan lencam", "Dimana Ikan lencam tinggal?", "habitat ikan lencam"],
+      "responses" : ["Ikan lencam termasuk kedalam ikan demersal"]
+    },
+  
+    {
+      "tag": "Ikan kakap",
+      "patterns" : [ "Apa itu ikan kakap?","ikan kakap itu apa?","Apa sih ikan kakap?","ikan kakap","ikan kakap"],
+      "responses" : ["Ikan kakap merupakan ikan yang memiliki sirip punggung dengan ciri-ciri keras, kuat dan kaku, dimana duri sirip punggung hampir terpisah antara depan dan belakang, ikan kakap juga memiliki gurat sisi berlanjut, sisip ekor bulat dan bersisik, bentuk kepala tirus kedepan, dengan warna perak keabu-abuan/biru/hijau."]
+    },
+    {
+      "tag" : "Nama latin Ikan kakap",
+      "patterns" : ["Apa nama latin Ikan kakap?","Nama latin Ikan kakap?","Apa Sih nama latin dari ikan kakap?","Nama latin dari ikan kakap apa?","Nama latin dari ikan kakap itu apa?","Ikan kakap nama latinnya apa?", "Apa nama lain dari ikan ?", "Nama ilmiah ikan kakap?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Lates calcarifer",
+        "Ikan  memiliki nama latin adalah Lates calcarifer"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan kakap",
+      "patterns" : ["Gizi yang terkandung dalam ikan kakap","Apa gizi dari ikan kakap?","Gizi apa yang dimiliki ikan kakap?","Kandungan gizi apa yang terdapat pada ikan kakap?","Gizi apa yang dimiliki ikan kakap?"],
+      "responses" : ["Ikan kakap juga mengandung sejumlah vitamin dan mineral penting bagi tubuh, seperti vitamin A, vitamin D, natrium, kalsium, selenium, zat besi, dan kalium. "]
+    },
+    {
+      "tag" : "Harga Ikan kakap",
+      "patterns" : ["Berapa harga 1 KG ikan kakap?","Harga 1 KG ikan kakap?", "Berapa harga ikan kakap?","harga kakap"],
+      "responses" : ["Harga ikan kakap kisaran  Rp46,000"]
+    },
+    {
+      "tag" : "Makanan ikan kakap",
+      "patterns" : ["Apa makanan ikan kakap?”, “makanan ikan kakap?"],
+      "responses" : ["Ikan ikan kakap memakan udang maupun berbagai jenis ikan-ikan kecil."]
+    },
+    {
+      "tag" : "klasifikasi ikan kakap",
+      "patterns" : ["klasifikasi ikan kakap?"],
+      "responses" : ["Ikan kakap termasuk ke dalam Kingdom :Animalia, Filum :Chordata, Sub Filum :Vertebrata, Genus :Lates, Kelas :Pisces, Sub Kelas :Teleostomi, Ordo :Percomoprhi, Family :Centropomidae, Spesies :Lates calcarifer"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan kakap",
+      "patterns" : ["cara mengolah ikan kakap?","Bagaimana cara mengolah ikan kakap?", "Tips mengolah ikan kakap", "Bagaimana pengolahan Ikan kakap?"],
+      "responses" : ["Ikan kakap bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan kakap",
+      "patterns" : ["Pada bulan apa musim Ikan kakap?”, “Kapan musim Ikan kakap?", "Kapan puncak musim Ikan kakap?"],
+      "responses" : ["Musim penangkapan ikan kakap pada bulan Januari, Maret, Mei, September, November dan Desember."]
+    },
+    {
+      "tag"  : "Habitat Ikan kakap",
+      "patterns" : ["Dimana habitat ikan kakap?", "Habitat ikan kakap", "Dimana Ikan kakap tinggal?", "habitat ikan kakap"],
+      "responses" : ["Ikan kakap termasuk kedalam ikan demersal"]
+    },
+
+    {
+      "tag": "Ikan kakap batu",
+      "patterns" : [ "Apa itu ikan kakap batu?","ikan kakap batu itu apa?","Apa sih ikan kakap batu?","ikan kakap batu","kakap batu"],
+      "responses" : ["Warna kakap batu biasanya merah keabu-abuan, namun dapat berubah menjadi merah cerah atau merah tembaga.[3] Ikan ini memiliki belang gelap yang melintang di matanya jika diamati dari atas, saat ikan ini berada di bawah air. Kakap batu bisa mencapai panjang 89 cm, meskipun sebagian besarnya tidak melebihi 40 cm . Berat terbesar yang tercatat untuk kakap batu adalah 20 kg."]
+    },
+    {
+      "tag" : "Nama latin Ikan kakap batu ",
+      "patterns" : ["Apa nama latin Ikan kakap batu?","Nama latin Ikan kakap batu?","Apa Sih nama latin dari ikan kakap batu?","Nama latin dari ikan kakap batu apa ?","Nama latin dari ikan kakap batu itu apa?","Ikan kakap batu nama latinnya apa?", "Apa nama lain dari ikan kakap batu?", "Nama ilmiah ikan kakap batu?"],
+      "responses" : [
+        "nama latin dari ikan kakap batu adalah Lutjanus griseus",
+        "Ikan kakap batu memiliki nama latin adalah Lutjanus griseus"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan kakap batu",
+      "patterns" : ["Gizi yang terkandung dalam ikan kakap batu","Apa gizi dari ikan kakap batu?","Gizi apa yang dimiliki ikan kakap batu?","Kandungan gizi apa yang terdapat pada ikan kakap batu?","Gizi apa yang dimiliki ikan kakap batu?"],
+      "responses" : ["Ikan kakap batu mengandung 70 gram air. 128 kkal energi. 26,3 gram protein. 1,72 gram total lemak. 40 miligram kalsium. 0,24 miligram zat besi. 37 miligram zat besi. 0,24 miligram fosfor."]
+    },
+    {
+      "tag" : "Harga Ikan kakap batu",
+      "patterns" : ["Berapa harga 1 KG ikan kakap batu?","Harga 1 KG ikan kakap batu?", "Berapa harga ikan kakap batu?","harga ikan kakap batu"],
+      "responses" : ["Harga kakap batu putih kisaran Rp40,000"]
+    },
+    {
+      "tag" : "Makanan ikan kakap batu",
+      "patterns" : ["Apa makanan ikan kakap batu?”, “makanan ikan kakap batu?"],
+      "responses" : ["Ikan kakap batu memakan udang maupun berbagai jenis ikan-ikan kecil."]
+    },
+    {
+      "tag" : "klasifikasi ikan kakap batu",
+      "patterns" : ["klasifikasi ikan kakap batu?"],
+      "responses" : ["Ikan kakap batu termasuk kedalam kingdom: Animalia, Filum: Chordata, Kelas: Actinopterygii, Ordo: Perciformes, Famili: Lutjanidae"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan kakap batu",
+      "patterns" : ["cara mengolah ikan kakap batu?","Bagaimana cara mengolah ikan kakap batu?", "Tips mengolah ikan kakap batu", "Bagaimana pengolahan Ikan kakap batu"],
+      "responses" : ["Ikan kakap batu bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan kakap batu",
+      "patterns" : ["Pada bulan apa musim Ikan kakap batu?”, “Kapan musim Ikan kakap batu?", "Kapan puncak musim Ikan kakap batu?"],
+      "responses" : ["Musim penangkapan ikan kakap pada bulan Januari, Maret, Mei, September, November dan Desember."]
+    },
+    {
+      "tag"  : "Habitat Ikan kakap batu",
+      "patterns" : ["Dimana habitat ikan bawal putih?", "Habitat ikan bawal putih", "Dimana Ikan bawal putih tinggal?", "habitat ikan bawal putih"],
+      "responses" : ["Ikan kakap batu termasuk kedalam ikan demersal"]
+    },
+  
+    {
+      "tag": "Ikan kakap merah",
+      "patterns" : [ "Apa itu ikan kakap merah?","ikan kakap merah itu apa?","Apa sih ikan kakap merah?","ikan kakap merah","kakap merah"],
+      "responses" : ["Ikan kakap merah (Lutjanus argntimaculatus) yaitu mempunyai tubuh yang memanjang dan melebar, gepeng atau lonjong, kepala cembung atau sedikit cekung. Jenis ikan ini umumnya bermulut lebar dan agak menjorok ke muka, gigi konikel pada taring-taringnya tersusun dalam satu atau dua baris dengan serangkaian gigi caninnya yang berada pada bagian depan."]
+    },
+    {
+      "tag" : "Nama latin Ikan kakap merah",
+      "patterns" : ["Apa nama latin Ikan kakap merah?","Nama latin Ikan kakap merah?","Apa Sih nama latin dari ikan kakap merah?","Nama latin dari ikan kakap merah apa ?","Nama latin dari ikan kakap merah itu apa?","Ikan kakap merah nama latinnya apa?", "Apa nama lain dari ikan kakap merah?", "Nama ilmiah ikan kakap merah?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Lutjanus argntimaculatus",
+        "Ikan  memiliki nama latin adalah Lutjanus argntimaculatus"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan kakap merah",
+      "patterns" : ["Gizi yang terkandung dalam ikan kakap merah","Apa gizi dari ikan kakap merah?","Gizi apa yang dimiliki ikan kakap merah?","Kandungan gizi apa yang terdapat pada ikan kakap merah?","Gizi apa yang dimiliki ikan kakap merah?"],
+      "responses" : ["Kakap merah merupakan ikan dasar yang memiliki kandungan gizi per 100 gram yaitu protein 20 gram, lemak 7 gram, kalsium 20 gram, fosfor 20 mg, vitamin 9 mg, besi 1 mg, dan air 77 mg."]
+    },
+    {
+      "tag" : "Harga Ikan kakap merah",
+      "patterns" : ["Berapa harga 1 KG ikan kakap merah?","Harga 1 KG ikan kakap merah?", "Berapa harga ikan kakap merah?","harga kakap merah"],
+      "responses" : ["Harga ikan kakap merah kisaran Rp74,000/kg."]
+    },
+    {
+      "tag" : "Makanan ikan kakap merah",
+      "patterns" : ["Apa makanan ikan kakap merah?”, “makanan ikan kakap merah?"],
+      "responses" : ["Ikan kakap merah memakan udang maupun berbagai jenis ikan-ikan kecil."]
+    },
+    {
+      "tag" : "klasifikasi ikan kakap merah",
+      "patterns" : ["klasifikasi ikan kakap merah?"],
+      "responses" : ["Ikan kakap merah termasuk kedalam kingdom: Animalia, Filum: Chordata, Kelas: Actinopterygii, Ordo: Perciformes, Famili: Lutjanidae"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan kakap merah",
+      "patterns" : ["cara mengolah ikan kakap merah?","Bagaimana cara mengolah ikan kakap merah?", "Tips mengolah ikan kakap merah", "Bagaimana pengolahan Ikan kakap merah"],
+      "responses" : ["Ikan kakap merah bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan kakap merah",
+      "patterns" : ["Pada bulan apa musim Ikan kakap merah?”, “Kapan musim Ikan kakap merah?", "Kapan puncak musim Ikan kakap merah?"],
+      "responses" : ["Puncak penangkapan ikan kakap merah terjadi pada bulan Januari, Maret, Juni, Juli, November dan Desember."]
+    },
+    {
+      "tag"  : "Habitat Ikan kakap merah",
+      "patterns" : ["Dimana habitat ikan kakap merah", "Habitat ikan kakap merah", "Dimana Ikan kakap merah tinggal?", "habitat ikan kakap merah"],
+      "responses" : ["Ikan kakap merah termasuk kedalam ikan demersal"]
+    },
+  
+    {
+      "tag": "Ikan jenaha",
+      "patterns" : [ "Apa itu ikan jenaha?","ikan jenaha itu apa?","Apa sih ikan jenaha?","ikan jenaha","jenaha"],
+      "responses" : ["Ikan jenaha atau kakap tompel adalah salah satu jenis ikan laut yang hidup di perairan topis Indonesia. Ikan ini dikenal sebagai ikan Snapper dalam bahasa Inggris."]
+    },
+    {
+      "tag" : "Nama latin Ikan jenaha",
+      "patterns" : ["Apa nama latin Ikan jenaha?","Nama latin Ikan jenaha?","Apa Sih nama latin dari ikan jenaha?","Nama latin dari ikan jenaha apa?","Nama latin dari ikan jenaha itu apa?","Ikan jenaha nama latinnya apa?", "Apa nama lain dari ikan jenaha?", "Nama ilmiah ikan jenaha?"],
+      "responses" : [
+        "nama latin dari ikan  adalah Lutjanus mahogon",
+        "Ikan  memiliki nama latin adalah Lutjanus mahogon"]
+    },
+    {
+      "tag" : "Gizi Ikan jenaha",
+      "patterns" : ["Gizi yang terkandung dalam ikan jenaha","Apa gizi dari ikan jenaha?","Gizi apa yang dimiliki ikan jenaha?","Kandungan gizi apa yang terdapat pada ikan jenaha?","Gizi apa yang dimiliki ikan jenaha?"],
+      "responses" : ["Kandungan nutrisi dari ikan jenaha adalah Selenium, Vitamin A dan D, Zat besi, Protein, Fosfor, Kalium, dan Asam Lemak Omega 3."]
+    },
+    {
+      "tag" : "Harga Ikan jenaha",
+      "patterns" : ["Berapa harga 1 KG ikan jenaha?","Harga 1 KG ikan jenaha?", "Berapa harga ikan jenaha?","harga jenaha"],
+      "responses" : ["Harga ikan bawal putih kisaran Rp55,000"]
+    },
+    {
+      "tag" : "Makanan ikan jenaha",
+      "patterns" : ["Apa makanan ikan jenaha?”, “makanan ikan jenaha?"],
+      "responses" : ["Ikan jenaha memakan udang maupun berbagai jenis ikan-ikan kecil."]
+    },
+    {
+      "tag" : "klasifikasi ikan jenaha",
+      "patterns" : ["klasifikasi ikan jenaha?"],
+      "responses" : ["Ikan kakap merah termasuk kedalam kingdom: Animalia, Filum: Chordata, Kelas: Actinopterygii, Ordo: Perciformes, Famili: Lutjanidae."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan jenaha",
+      "patterns" : ["cara mengolah ikan jenaha?","Bagaimana cara mengolah ikan jenaha?", "Tips mengolah ikan jenaha", "Bagaimana pengolahan Ikan jenaha"],
+      "responses" : ["Ikan jenaha bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan jenaha",
+      "patterns" : ["Pada bulan apa musim Ikan jenaha?”, “Kapan musim Ikan jenaha?", "Kapan puncak musim Ikan jenaha?"],
+      "responses" : ["Puncak penangkapan ikan jenaha terjadi pada bulan Januari, Maret, Juni, Juli, November dan Desember."]
+    },
+    {
+      "tag"  : "Habitat Ikan jenaha",
+      "patterns" : ["Dimana habitat ikan jenaha?", "Habitat ikan jenaha", "Dimana Ikan jenaha tinggal?", "habitat ikan jenaha"],
+      "responses" : ["Ikan jenaha termasuk kedalam ikan demersal"]
+    },
+  
+    {
+      "tag": "Ikan kurisi",
+      "patterns" : [ "Apa itu ikan kurisi?","ikan kurisi itu apa?","Apa sih ikan kurisi?","ikan kurisi","kurisi"],
+      "responses" : ["Ikan Kurisi mempunyai nama internasional Threadfin Bream. Di Indonesia, jenis ikan ini merupakan salah satu komoditi ikan yang cukup mudah di dapatkan dibeberapa daerah di indonesia. Ikan Kurisi merupakan salah satu ikan demersal, Kebiasaan hidupnya kadang membentuk gerombolan, Lanyak ditemukan terutama pada daerah perairan pantai dengan dasar lunak seperti pasir dengan sedikit lumpur. Ikan kurisi hidup didasar, karang-karang, dasar lumpur atau lumpur pasir pada kedalaman 10-50 m."]
+    },
+    {       
+      "tag" : "Nama latin Ikan kurisi",
+      "patterns" : ["Apa nama latin Ikan kurisi?","Nama latin Ikan kurisi?","Apa Sih nama latin dari ikan kurisi?","Nama latin dari ikan kurisi apa ?","Nama latin dari ikan kurisi itu apa?","Ikan kurisi nama latinnya apa?", "Apa nama lain dari ikan kurisi?", "Nama ilmiah ikan kurisi?"],
+      "responses" : [
+        "nama latin dari ikan kurisi adalah Nemipterus nematophorus",
+        "Ikan kurisi memiliki nama latin adalah Nemipterus nematophorus"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan kurisi",
+      "patterns" : ["Gizi yang terkandung dalam ikan kurisi","Apa gizi dari ikan kurisi?","Gizi apa yang dimiliki ikan kurisi?","Kandungan gizi apa yang terdapat pada ikan kurisi","Gizi apa yang dimiliki ikan kurisi?"],
+      "responses" : ["ikan kurisi tergolong ikan berlemak rendah dan berprotein tinggi memiliki kandungan protein 15-20% dan kandungan lemaknya kurang dari 5% "]
+    },
+    {
+      "tag" : "Harga Ikan kurisi",
+      "patterns" : ["Berapa harga 1 KG ikan kurisi?","Harga 1 KG ikan kurisi?", "Berapa harga ikan kurisi?","harga ikan kurisi"],
+      "responses" : ["Harga ikan kurisi kisaran Rp 20,000/kg"]
+    },
+    {
+      "tag" : "Makanan ikan kurisi",
+      "patterns" : ["Apa makanan ikan kurisi?”, “makanan ikan kurisi?"],
+      "responses" : ["Ikan kurisi termasuk kedalam karnivora dengan makanan utamanya adalah udang."]
+    },
+    {
+      "tag" : "klasifikasi ikan kurisi",
+      "patterns" : ["klasifikasi ikan kurisi?"],
+      "responses" : ["Ikan kurisi termasuk ke dalam Kingdom: Animalia, Filum Chordata, Sub Filum: Vertebrata, Kelas: Pisces Sub, Kelas: Teleosei Ordo: Percomorphi, Famili: Nemipteridae, Genus: Nemipterus, Spesies: Nemipterus nematophorus"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan kurisi",
+      "patterns" : ["cara mengolah ikan kurisi?","Bagaimana cara mengolah ikan kurisi?", "Tips mengolah ikan kurisi", "Bagaimana pengolahan Ikan kurisi"],
+      "responses" : ["Ikan kurisi bisa diolah dengan berbagai macam masakan dari mulai dibakar, digoreng, hingga diolah menjadi masakan berkuah"]
+    },
+    {
+      "tag" : "Musim Ikan kurisi",
+      "patterns" : ["Pada bulan apa musim Ikan kurisi?”, “Kapan musim Ikan kurisi?", "Kapan puncak musim Ikan kurisi?"],
+      "responses" : ["Musim penangkapan Ikan Kurisi terjadi pada bulan Februari, Maret, April, Mei, Juni, Juli dan Oktober."]
+    },
+    {
+      "tag"  : "Habitat Ikan kurisi",
+      "patterns" : ["Dimana habitat ikan kurisi?", "Habitat ikan kurisi", "Dimana Ikan kurisi tinggal?", "habitat ikan kurisi"],
+      "responses" : ["Ikan kurisi termasuk kedalam ikan demersal"]
+    },
+
+    {
+      "tag" : "Ikan Kuniran",
+      "patterns" : [ "Apa itu ikan kuniran ?","ikan kuniran itu apa?","Apa sih ikan kuniran?"],
+      "responses" : ["ikan air laut yang mempunyai ciri fisik berkepala tumpul, bentuk badan memanjang dan pipih dengan penampang melintang bagian depan punggung memiliki beberapa garis bengkok yang dalam, sirip dan ekor ikan berwarna kuning. Ikan Kuniran mempunyai garis berwarna coklat kemerahan memanjang dari moncong melewati mata sampai ke pertengahan dasar pangkal ekor."]
+    },
+    {
+      "tag" : "Nama latin Ikan kunirna",
+      "patterns" : ["Apa nama latin Ikan Kuniran?","Nama latin Ikan Kuniran?","Apa Sih nama latin dari ikan kuniran?","Nama latin dari ikan kuniran apa ?","Nama latin dari ikan kuniran itu apa?","Ikan kuniran nama latinnya apa?", "Apa nama lain dari ikan kuniran?", "Nama ilmiah ikan kuniran?"],
+      "responses" : [
+        "nama latin dari ikan kurniran adalah Upeneus sulphureus",
+        "Ikan kurniran memiliki nama latin adalah Upeneus sulphureus"
+      ]
+    },
+    {
+      "tag" : "Gizi Ikan kuniran",
+      "patterns" : ["Gizi yang terkandung dalam ikan kuniran","Apa gizi dari ikan kuniran ?","Gizi apa yang dimiliki ikan kuniran?","Kandungan gizi apa yang terdapat pada ikan kuniran?"],
+      "responses" : ["Ikan Kuniran memiliki gizi kandungan lemak rendah, rasa dagingnya khas, enak, lezat dan gurih sehingga digemari oleh masyarakat.Komposisi daging ikan secara umum nilai gizinya terdiri dari air sebesar 60-80%, protein 18-30%, lemak 0.1-2.2%, karbohidrat 0,0-1,0% dan sisanya adalah vitamin dan mineral. Menurut Lab Balai Pengujian Mutu Hasil Perikanan Cirebon, komposisi nilai gizi utuk fillet ikan kuniran kering terdiri dari protein 60,8%, lemak 2,9%, abu 4,3% dan kadar air 1,4% (Boris, 2008)."]
+    },
+    {
+      "tag" : "Harga Ikan Kuniran",
+      "patterns" : ["Berapa harga 1 kg ikan kuniran?","Harga 1 KG ikan kuniran?", "Berapa harga ikan kuniran?"],
+      "responses" : [
+        "Harga 1 kg ikan kuniran adalah Rp.30.000,00",
+        "Harga ikan kuniran adalah Rp.30.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan kuniran",
+      "patterns" : ["Apa makanan ikan kuniran?”, “makanan ikan kuniran?"],
+      "responses" : ["makanan ikan kuniran adalah 59,49% jenis udang, 14,51% ikan-ikan kecil, dan 13,51%  moluska"]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan kuniran",
+      "patterns" : ["klasifikasi ikan kuniran?"],
+      "responses" : ["Ikan kurniran termasuk Kingdom : Animalia,Filum : Chordata,Subfilum : Vertebrata,Kelas : Actinopterygii,Subkelas : Actinopterygii,Ordo : Perciformes,Subordo : Percoidei,Famili : Mullidae,Genus : Upeneus,Spesies : Upeneus moluccensis,Nama FAO : Goldband goatfish, Nama Indonesia : Kuniran, Biji nangka, Kunir, Kakunir, Kuning"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Kuniran",
+      "patterns" : ["cara mengolah ikan kuniran?","Bagaimana cara mengolah ikan kuniran?", "Tips mengolah ikan kuniran", "Bagaimana pengolahan Ikan Kuniran"],
+      "responses" : ["Cara mengolah ikan kurniran yaitu dengan digoreng dan ditambah sambal"]
+    },
+    {
+      "tag" : "Musim Ikan Kuniran",
+      "patterns" : ["Pada bulan apa musim Ikan Kuniran?", "Kapan musim Ikan Kuniran?", "Kapan puncak musim Ikan Kuniran?"],
+      "responses" : ["Musim pemijahan ikan kuniran (Upeneus moluccensis) di perairan Selat Sunda diduga terjadi pada bulan Maret, April, Juli, Agustus, dan September. "]
+    },
+    {
+      "tag"  : "Habitat Ikan Kuniran",
+      "patterns" : ["Dimana habitat ikan kuniran?", "Habitat ikan kuniran", "Dimana Ikan Kuniran tinggal?"],
+      "responses" : ["Ikan Kuniran termasuk golongan ikan demersal yang umumnya ditemukan di laut tropis dan subtropis.Ikan kuniran hidup di perairan dengan substrat berlumpur atau lumpur bercampur dengan pasir, namun ada juga ikan kuniran yang mencari makanan hingga ke daerah karang "]
+    },
+  
+    {
+      "tag" : "Ikan Kuro",
+      "patterns" : [ "Apa itu ikan kuro ?","ikan kuro itu apa?","Apa sih ikan kuro?"],
+      "responses" : ["Kuro (atau kurau) adalah nama umum bagi sekelompok ikan laut yang tergolong ke dalam famili Polynemidae. Menyebar di perairan tropis hingga ugahari, umumnya ikan-ikan ini berwarna keperakan dan biasa hidup bergerombol. Jenis-jenis kuro bisa ditemukan pada saat air pasang tetapi tidak terlalu tinggi, dan biasanya pada kondisi air yang lumayan jernih."]
+    },
+    {
+      "tag" : "Nama latin Ikan kuro",
+      "patterns" : ["Apa nama latin Ikan Kuro?","Nama latin Ikan Kuro?","Apa Sih nama latin dari ikan kuro?","Nama latin dari ikan kuro apa ?","Nama latin dari ikan kuro itu apa?","Ikan kuro nama latinnya apa?", "Apa nama lain dari ikan kuro?", "Nama ilmiah ikan kuro?"],
+      "responses" : ["Nama latin dari ikan kuro adalah Polydactylus Octonemus"]
+    },
+    {
+      "tag" : "Gizi Ikan kuro",
+      "patterns" : ["Gizi yang terkandung dalam ikan kuro","Apa gizi dari ikan kuro?","Gizi apa yang dimiliki ikan kuro?","Kandungan gizi apa yang terdapat pada ikan kuro?"],
+      "responses" : ["Ikan Kuro mengandung energi sebesar 87 kilokalori, protein 16 gram, karbohidrat 1 gram, lemak 2,2 gram, kalsium 75 miligram, fosfor 136 miligram, dan zat besi 1 miligram.  Selain itu di dalam Ikan Kuro juga terkandung vitamin A sebanyak 21 IU, vitamin B1 0,04 miligram dan vitamin C 0 miligram.  Hasil tersebut didapat dari melakukan penelitian terhadap 100 gram Ikan Kuro, dengan jumlah yang dapat dimakan sebanyak 52 %."]
+    },
+    {
+      "tag" : "Harga Ikan Kuro",
+      "patterns" : ["Berapa harga 1 KG ikan kuro?","Harga 1 KG ikan kuro?", "Berapa harga ikan kuro?"],
+      "responses" : [
+        "Harga 1 kg ikan kuro adalah Rp.40.000,00",
+        "Harga ikan kuro adalah Rp.40.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan kuro",
+      "patterns" : ["Apa makanan ikan kuro?”, “makanan ikan kuro?"],
+      "responses" : ["makanan ikan kuro adalah bervariasi dengan ditemukannya ikan-ikan kecil seperti Leiognathus sp. dan Trhyssa sp,Udang,Cacing laut"]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan kuro",
+      "patterns" : ["klasifikasi ikan kuro?"],
+      "responses" : ["Ikan kuro diklasifikasikan dalam filum Chordata, subfilum Vertebrata, superkelas Osteichthyes, kelas Actinopterygii, subkelas Neopterygii, infrakelas Teleostei, superordo Acanthopterygii, ordo Perciformes, subordo Percoidei, famili Polynemidae, genus Eleutheronema, dan spesies Eleutheronema tetradactylum."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Kuro",
+      "patterns" : ["cara mengolah ikan kuro?","Bagaimana cara mengolah ikan kuro?", "Tips mengolah ikan kuro", "Bagaimana pengolahan Ikan Kuro"],
+      "responses" : ["cara mengelolah ikan kuro yaitu bisa digoreng dan dikukus (dibuat ikan pepes)"]
+    },
+    {
+      "tag" : "Musim Ikan Kuro",
+      "patterns" : ["Pada bulan apa musim Ikan Kuro?", "Kapan musim Ikan Kuro?", "Kapan puncak musim Ikan Kuro?"],
+      "responses" : ["Juli-Oktober musim kemarau"]
+    },
+    {
+      "tag"  : "Habitat Ikan Kuro",
+      "patterns" : ["Dimana habitat ikan kuro?", "Habitat ikan kuro", "Dimana Ikan Kuro tinggal?"],
+      "responses" : ["Habitat ikan kuro adalah  perairan terbuka yang dangkal dengan dasar berpasir, berlumpur atau tanah liat dan jarang-jarang berkeliaran di sekitar terumbu karang."]
+    },
+  
+    {
+      "tag" : "Ikan Alu-alu",
+      "patterns" : [ "Apa itu ikan alu-alu ?","ikan alu-alu itu apa?","Apa sih ikan alu-alu?"],
+      "responses" : ["ikan Alu-alu termasuk dalam kelas Actinopterygii dan berukuran besar. Panjang tubuhnya bisa mencapai enam kaki dengan lebar satu kaki. Permukaan tubuhnya ditutupi oleh sisik halus. Beberapa spesies bisa mencapai panjang hingga 1,8m dengan lebar 30 cm. ikan ini dapat ditemukan di samudra tropis dan subtropics di seluruh dunia."]
+    },
+    {
+      "tag" : "Nama latin Alu-alu",
+      "patterns" : ["Apa nama latin alu-alu?","Nama latin Ikan alu-alu?","Apa Sih nama latin dari ikan alu-alu?","Nama latin dari ikan alu-alu apa ?","Nama latin dari ikan alu-alu itu apa?","Ikan alu-alu nama latinnya apa?", "Apa nama lain dari ikan alu-alu?", "Nama ilmiah ikan alu-alu?"],
+      "responses" : ["Nama latin dari ikan alu-alu adalah Sphyraena jello"]
+    },
+    {
+      "tag" : "Gizi Ikan alu-alu",
+      "patterns" : ["Gizi yang terkandung dalam ikan alu-alu","Apa gizi dari ikan alu-alu?","Gizi apa yang dimiliki ikan alu-alu?","Kandungan gizi apa yang terdapat pada ikan alu-alu?"],
+      "responses" : ["Ikan Alu-alu memiliki Kandungan proksimat dari daging , yaitu kadar air 80,69% (bb), abu 6,73% (bk), lemak 0,98% (bk), protein 76,18% (bk), protein larut air (PLA) 4,39% (bb), protein larut garam (PLG) 9,85% (bb). Daging ikan alu-alu memiliki sembilan asam amino esensial (histidina, treonina, arginina, metionina, valina, fenilalanina, isoleusina, leusina, dan lisina), dan enam asam amino non-esensial (asam aspartat, asam glutamat, serina, glisina, alanina dan tirosina)."]
+    },
+    {
+      "tag" : "Harga Ikan Alu-alu",
+      "patterns" : ["Berapa harga 1 KG ikan kuniran?","Harga 1 KG ikan kuniran?", "Berapa harga ikan kuniran?"],
+      "responses" : [
+        "Harga 1 kg ikan alu-alu adalah Rp.27.000,00",
+        "Harga ikan alu-alu adalah Rp.27.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan Alu-alu",
+      "patterns" : ["Apa makanan ikan alu-alu?”, “makanan ikan alu-alu?"],
+      "responses" : ["makanan ikan alu-alu adalah memakan apapun yang tersedia dihabitatnya, seperti ikan tembang, ikan kembung, ikan selar, cumi-cumi, dan yang lainnya. Cumi-cumi adalah makanan favorit kesukaannya, karena ikan barakuda besar adalah predator yang bekerja siang dan malam hari."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Alu-alu",
+      "patterns" : ["klasifikasi ikan alu-alu?"],
+      "responses" : ["Ikan Alu-alu diklasifikasikan dalam Kingdom: Animalia,Filum: Chordata,Kelas: Actinopterygii,Ordo: Perciformes,Subordo: Scombroidei,Famili: Sphyraenidae,Genus: Sphyraena,Spesies: Sphyraena barracuda"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Alu-alu",
+      "patterns" : ["cara mengolah ikan kuro?","Bagaimana cara mengolah ikan kuro?", "Tips mengolah ikan kuro", "Bagaimana pengolahan Ikan Kuro"],
+      "responses" : ["cara mengelolah ikan alu-alu yaitu bisa diolah menjadi cemilan seperti pempek,otak-otak"]
+    },
+    {
+      "tag" : "Musim Ikan Alu-alu",
+      "patterns" : ["Pada bulan apa musim Ikan Kuro?", "Kapan musim Ikan Kuro?", "Kapan puncak musim Ikan Kuro?"],
+      "responses" : [" Musim ikan alu-alu antara bulan April hingga Oktober."]
+    },
+    {
+      "tag"  : "Habitat Ikan Alu-alu",
+      "patterns" : ["Dimana habitat ikan alu-alu?", "Habitat ikan alu-alu", "Dimana Ikan Kuro tinggal?"],
+      "responses" : ["Habitat ikan Alu-alu adalah Termasuk jenis ikan pelagis. Sehingga dapat ditemukan terutama di daerah permukaan atau dekat permukaan. Diurnal dan soliter tapi ikan-ikan muda sering membentuk sekumpulan kecil, biasanya berada di tepi karang dan diatas tempat-tempat dangkal, daerah bakau, estuari dan terumbu karang bagian dalam; ikan dewasa tersebar luas dari pantai sampai laut lepas.Menghuni teluk, muara, dan  laguna dengan kedalaman kisaran 20 - 200 m."]
+    },
+  
+    {
+      "tag" : "Ikan Pari macan",
+      "patterns" : [ "Apa itu ikan pari macan ?","ikan pari macan itu apa?","Apa sih ikan macan?"],
+      "responses" : ["Ikan Pari Macan adalah salah satu spesies ikan pari terbesar di dunia. Lebar tubuhnya dari ujung sirip dada ke ujung sirip lainnya mencapai hampir 7 meter (kemungkinan lebih karena ada laporan yang mengatakan bahwa ada manta yang lebar tubuhnya mencapai 9,1 meter). "]
+    },
+    {
+      "tag" : "Nama latin Pari macan",
+      "patterns" : ["Apa nama latin pari macan?","Nama latin Ikan pari macan?","Apa Sih nama latin dari ikan pari macan?","Nama latin dari ikan pari macan apa ?","Nama latin dari ikan pari macan itu apa?","Ikan pari macan nama latinnya apa?", "Apa nama lain dari ikan pari macan?", "Nama ilmiah ikan pari macan?"],
+      "responses" : ["Nama latin dari ikan pari macan adalah Himantura Undulata"]
+    },
+    {
+      "tag" : "Gizi Ikan Pari macan",
+      "patterns" : ["Gizi yang terkandung dalam ikan pari macan","Apa gizi dari pari macan?","Gizi apa yang dimiliki ikan pari macan?","Kandungan gizi apa yang terdapat pada ikan pari macan?"],
+      "responses" : ["Ikan pari macan memiliki kandungan gizi yaitu lemak yang rendah, namun mengandung tinggi protein. Ikan pari juga sumber asam lemak omega-3, omega-6, vitamin, dan mineral. satu porsi ikan pari seberat 200 gram mengandung 168 kalori, 38,2 gram protein, 0,6 gram lemak, dan 0,2 gram karbohidrat. Selain itu, ikan pari juga mengandung mikronutrien yang dibutuhkan tubuh yakni vitamin A, vitamin B12, vitamin D, kalsium, niacin, dan fosfor. "]
+    },
+    {
+      "tag" : "Harga Ikan Pari macan",
+      "patterns" : ["Berapa harga 1 KG ikan pari macan?","Harga 1 KG ikan pari macan?", "Berapa harga ikan pari macan?"],
+      "responses" : [
+        "Harga 1 kg ikan pari macan adalah Rp.15.000,00",
+        "Harga ikan pari macan adalah Rp.15.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan pari macan",
+      "patterns" : ["Apa makanan ikan pari macan?”, “makanan ikan pari macan?"],
+      "responses" : ["makanan ikan pari macan adalah memakan memakan plankton (filter feeder), udang dan anak ikan."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Pari macan",
+      "patterns" : ["klasifikasi ikan pari macan?"],
+      "responses" : ["Ikan pari macan diklasifikasikan dalam Kingdom Animalia, Phylum Chordata, Class Chondrichthyes, Order Myliobatiformes, Family Dasyatidae, Genus Himantura, Species macan tutul"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan pari macan",
+      "patterns" : ["cara mengolah ikan pari macan?","Bagaimana cara mengolah ikan pari macan?", "Tips mengolah ikan pari macan", "Bagaimana pengolahan Ikan macan"],
+      "responses" : ["cara mengelolah ikan pari macan yaitu di mangut,di asap"]
+    },
+    {
+      "tag" : "Musim Ikan pari macan",
+      "patterns" : ["Pada bulan apa musim Ikan pari macan?", "Kapan musim Ikan pari macan", "Kapan puncak musim Ikan pari macan?"],
+      "responses" : [" Musim ikan pari macan antara bulan September dan Desember."]
+    },
+    {
+      "tag"  : "Habitat Ikan Pari macan",
+      "patterns" : ["Dimana habitat ikan pari macan?", "Habitat ikan pari macan", "Dimana Ikan pari macan tinggal?"],
+      "responses" : ["Habitat ikan pari macan adalah di pantai di atas habitat beralas lunak. Hal ini diketahui terjadi pada kedalaman 70 m (230 kaki)."]
+    },
+  
+    {
+      "tag" : "Ikan Layur",
+      "patterns" : [ "Apa itu ikan layur ?","ikan layur itu apa?","Apa sih ikan layur?"],
+      "responses" : ["Ikan layur adalah ikan perairan laut yang mudah dikenal dari bentuknya yang panjang dan ramping. Ikan ini tersebar di perairan tropika maupun sedang. Jenis yang ditemukan diSamudera Pasifik dan Samudera Atlantik diketahui merupakan populasi yang berbeda."]
+    },
+    {
+      "tag" : "Nama latin Ikan Layur",
+      "patterns" : ["Apa nama latin Ikan layur?","Nama latin Ikan layur?","Apa Sih nama latin dari ikan layur?","Nama latin dari ikan layur apa ?","Nama latin dari ikan layur itu apa?","Ikan layur nama latinnya apa?", "Apa nama lain dari ikan layur?", "Nama ilmiah ikan layur?"],
+      "responses" : ["Nama latin dari ikan alu-alu adalah Trichiurus lepturus"]
+    },
+    {
+      "tag" : "Gizi Ikan layur",
+      "patterns" : ["Gizi yang terkandung dalam ikan layur","Apa gizi dari ikan layur?","Gizi apa yang dimiliki ikan layur?","Kandungan gizi apa yang terdapat pada ikan layur?"],
+      "responses" : ["Ikan Layur mengandung energi sebesar 82 kilokalori, protein 18 gram, karbohidrat 0,4 gram, lemak 1 gram, kalsium 48 miligram, fosfor 229 miligram, dan zat besi 2,2 miligram.  Selain itu di dalam Ikan Layur juga terkandung vitamin A sebanyak 15 IU, vitamin B1 0,04 miligram dan vitamin C 0 miligram.  Hasil tersebut didapat dari melakukan penelitian terhadap 100 gram Ikan Layur, dengan jumlah yang dapat dimakan sebanyak 49 %."]
+    },
+    {
+      "tag" : "Harga Ikan Layur",
+      "patterns" : ["Berapa harga 1 KG ikan layur?","Harga 1 KG ikan layur?", "Berapa harga ikan layur?"],
+      "responses" : [
+        "Harga 1 kg ikan layur adalah Rp.20.000,00",
+        "Harga ikan layur adalah Rp.20.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan layur",
+      "patterns" : ["Apa makanan ikan layur”, “makanan ikan layur?"],
+      "responses" : ["makanan ikan layur seperti udang-udangan, cumi-cumi dan ikan kecil."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Layur",
+      "patterns" : ["klasifikasi ikan layur?"],
+      "responses" : ["Ikan layur diklasifikasikan sebagai Filum : Chordata , Superkelas : Gnathostomata, Kelas : Osteichthyes, Sub Kelas : ActinopterygiiInfra, kelas : Teleostei, Divisi : Euteleostei, Superordo : Acanthopterygii, Ordo : Perciformes, Sub Ordo : Scombroidei, Superfamili : Trichiuroidea, Famili : Trichiuridae, Gempylidae, Genus : Trichiurus Lepturacanthus,Gempylus, Spesies : Trichiurus lepturus Linnaeus, 1758, Lepturacanthus savala Cuvier, 1829, Gempylus serpens , Cuvier, 1829, Nama Indonesia : Layur."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Layur",
+      "patterns" : ["cara mengolah ikan layur?","Bagaimana cara mengolah ikan layur?", "Tips mengolah ikan layur", "Bagaimana pengolahan Ikan layur"],
+      "responses" : ["cara mengelolah Layur yaitu dijadikan ikan asin"]
+    },
+    {
+      "tag" : "Musim Ikan layur",
+      "patterns" : ["Pada bulan apa musim Ikan layur?", "Kapan musim Ikan layur", "Kapan puncak musim Ikan layur?"],
+      "responses" : [" musim ikan layur itu hanya terjadi selama dua bulanan atau lebih. Yaitu antara bulan Juni akhir hingga awal Agustus. "]
+    },
+    {
+      "tag"  : "Habitat Ikan Layur",
+      "patterns" : ["Dimana habitat ikan layur?", "Habitat ikan layur", "Dimana Ikan layur tinggal?"],
+      "responses" : ["Habitat ikan Layur adalah pada perairan pantai yang dalam dengan dasar berlumpur. ikan layur digolongkan pada jenis ikan demersal, jenis ikan ini biasanya muncul ke permukaan pada waktu senja untuk mencari makan."]
+    },
+  
+    {
+      "tag" : "Ikan Gabus",
+      "patterns" : [ "Apa itu ikan Gabus?","ikan gabus itu apa?","Apa sih ikan gabus?"],
+      "responses" : ["Ikan Gabus adalah sejenis ikan predator yang hidup di air tawar. Ikan darat yang cukup besar, dapat tumbuh hingga mencapai panjang 1 m. Berkepala besar agak gepeng mirip kepala ular (sehingga dinamai snakehead), dengan sisik-sisik besar di atas kepala. Tubuh bulat gilig memanjang, seperti peluru kendali. Sirip punggung memanjang dan sirip ekor membulat di ujungnya."]
+    },
+    {
+      "tag" : "Nama latin Ikan Gabus",
+      "patterns" : ["Apa nama latin Ikan gabus?","Nama latin Ikan gabus?","Apa Sih nama latin dari ikan gabus?","Nama latin dari ikan gabus apa ?","Nama latin dari ikan gabus itu apa?","Ikan gabus nama latinnya apa?", "Apa nama lain dari ikan gabus?", "Nama ilmiah ikan gabus?"],
+      "responses" : ["Nama latin dari ikan gabus adalah Channa striata "]
+    },
+    {
+      "tag" : "Gizi Ikan Gabus",
+      "patterns" : ["Gizi yang terkandung dalam ikan gabus","Apa gizi dari ikan gabus?","Gizi apa yang dimiliki ikan gabus?","Kandungan gizi apa yang terdapat pada ikan gabus?"],
+      "responses" : ["gizi yang terkandung dalam ikan gabus (per 100 gram dalam kondisi segar) memiliki kandungan nutrisi, seperti: Air 79,6 gram,Kalori 80 kkal,Protein 16,2 gram,Lemak 0,5 gram, Karbohidrat: 2,6 gram,Serat: 0,0 gram,Kalsium: 170 miligram,Fosfor 139 milligram,Zat besi 0,1 miligram,Natrium 65 miligram,Kalium 254 miligram,Tembaga 0,3 miligram,Seng 0,4 miligram,Retinol (Vit. A) 335 mikrogram,Thiamin (Vit. B1) 0,4 miligram,Riboflavin (Vit. B2) 0,2 miligram,Niacin (Vit. B3) 0,1 miligram."]
+    },
+    {
+      "tag" : "Harga Ikan Gabus",
+      "patterns" : ["Berapa harga 1 KG ikan gabus?","Harga 1 KG ikan gabus?", "Berapa harga ikan gabus?"],
+      "responses" : [
+        "Harga 1 kg ikan gabus adalah Rp.20.000,00",
+        "Harga ikan gabus adalah Rp.20.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan Gabus",
+      "patterns" : ["Apa makanan ikan gabus”, “makanan ikan gabus?"],
+      "responses" : ["makanan ikan gabus seperti ikan kecil,ikan rucah,udang,cacing tanah,dan pelet."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Gabus",
+      "patterns" : ["klasifikasi ikan gabus?"],
+      "responses" : ["Ikan gabus diklasifikasikan sebagai kerajaan animalia, filum chordata. Lalu berikutnya untuk kelas merupakan Actinopterygii.Setelah itu untuk ordo masuk dalam ordo perciformes. Selanjutnya untuk katagori famili masuk dalam canidae. Lalu untuk genus masuk dalam katagori channa. dan termasuk kedalam spesies c striata."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Gabus",
+      "patterns" : ["cara mengolah ikan gabus?","Bagaimana cara mengolah ikan gabus?", "Tips mengolah ikan gabus", "Bagaimana pengolahan Ikan gabus"],
+      "responses" : ["cara mengelolah Layur yaitu dijadikan membuat olahan empek-empek dan pindang"]
+    },
+    {
+      "tag" : "Musim Ikan Gabus",
+      "patterns" : ["Pada bulan apa musim Ikan gabus?", "Kapan musim Ikan gabus", "Kapan puncak musim Ikan gabus?"],
+      "responses" : [" musim ikan gabus itu hanya terjadi selama musim hujan. apabila Selama musim kemarau, ikan gabus akan mengubur dirinya jauh di dalam tanah. "]
+    },
+    {
+      "tag"  : "Habitat Ikan Gabus",
+      "patterns" : ["Dimana habitat ikan gabus?", "Habitat ikan gabus", "Dimana Ikan gabus tinggal?"],
+      "responses" : ["Habitat ikan gabus adalah di rawa-rawa dan sungai."]
+    },
+  
+    {
+      "tag" : "Ikan samgeh",
+      "patterns" : [ "Apa itu ikan samgeh?","ikan samgeh itu apa?","Apa sih ikan samgeh?"],
+      "responses" : ["Ikan samgeh atau ikan gulama adalah Jenis ikan terumbu karang .memiliki bagian tubuh seperti kepala, badan, punggung, perut berwarna kekuningan. Semua bagian siripmulai dari sirip punggung, sirip pectoral, sirip dubur dan ekor semuanya berwarna kuning. "]
+    },
+    {
+      "tag" : "Nama latin Ikan samgeh",
+      "patterns" : ["Apa nama latin Ikan samgeh?","Nama latin Ikan samgeh?","Apa Sih nama latin dari ikan samgeh?","Nama latin dari ikan samgeh apa ?","Nama latin dari ikan samgeh itu apa?","Ikan samgeh nama latinnya apa?", "Apa nama lain dari ikan samgeh?", "Nama ilmiah ikan samgeh?"],
+      "responses" : ["Nama latin dari ikan gabus adalah Johnius Trachychepalus."]
+    },
+    {
+      "tag" : "Gizi Ikan samgeh",
+      "patterns" : ["Gizi yang terkandung dalam ikan samgeh","Apa gizi dari ikan samgeh?","Gizi apa yang dimiliki ikan samgeh?","Kandungan gizi apa yang terdapat pada ikan samgeh?"],
+      "responses" : ["gizi yang terkandung dalam ikan samgeh memiliki daging yang putih, lembut, tebal dan mempunyai nilai ekonomi dan protein yang cukup tinggi sebesar (16,48%), kandungan lemak (1,47%), kadar air (79,35%)."]
+    },
+    {
+      "tag" : "Harga Ikan samgeh",
+      "patterns" : ["Berapa harga 1 KG ikan samgeh?","Harga 1 KG ikan samgeh?", "Berapa harga ikan samgeh?"],
+      "responses" : [
+        "Harga 1 kg ikan samgeh adalah Rp.30.000,00",
+        "Harga ikan samgeh adalah Rp.30.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan samgeh",
+      "patterns" : ["Apa makanan ikan samgeh”, “makanan ikan samgeh?"],
+      "responses" : ["makanan ikan samgeh yaitu ikan kecil."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan samgeh",
+      "patterns" : ["klasifikasi ikan samgeh?"],
+      "responses" : ["Ikan samgeh diklasifikasikan sebagai Kingdom  Animalia ,Filum Chordata ,Sub Phylum  Vertebrata ,Super Class  Gnathostomata ,Class Actinopterygii ,Ordo  Percomorphi,Sub ordo Percoidea,Divisi Perciformes, Famili  Scienidae,genus  Argyrosomus."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan samgeh",
+      "patterns" : ["cara mengolah ikan samgeh?","Bagaimana cara mengolah ikan samgeh?", "Tips mengolah ikan samgeh", "Bagaimana pengolahan Ikan samgeh"],
+      "responses" : ["cara mengelolah samgeh yaitu dijadikan ikan asin,digoreng dan bisa dijadikan sebagai bahan membuat sosis ikan."]
+    },
+    {
+      "tag" : "Musim Ikan samgeh",
+      "patterns" : ["Pada bulan apa musim Ikan samgeh?", "Kapan musim Ikan samgeh", "Kapan puncak musim Ikan samgeh?"],
+      "responses" : [" musim ikan samgeh itu Oktober-Desember dan Februar-April."]
+    },
+    {
+      "tag"  : "Habitat Ikan samgeh",
+      "patterns" : ["Dimana habitat ikan samgeh?", "Habitat ikan samgeh", "Dimana Ikan samgeh tinggal?"],
+      "responses" : ["Habitat ikan gabus adalah demersal, ikan “demersal” adalah ikan yang umumnya hidup di daerah dekat dasar perairan, ikan demersal umumnya berenang tidak berkelompok (soliter)."]
+    },
+  
+    {
+      "tag" : "Ikan Ayam-ayam",
+      "patterns" : [ "Apa itu ikan ayam-ayam?","ikan ayam-ayam itu apa?","Apa sih ikan ayam-ayam?"],
+      "responses" : ["Ikan ayam-ayam , dikenal pula sebagai ikan etong, jebong, atau kambing-kambing adalah ikan laut komsumsi populer yang biasa diolah sebagai ikan bakar. Ikan ini biasa ditemukan di perairan hangat kawasan Indo-Pasifik, mulai dari Laut Merah sampai Samudera Pasifik bagian barat. "]
+    },
+    {
+      "tag" : "Nama latin Ikan Ayam-ayam",
+      "patterns" : ["Apa nama latin Ikan ayam-ayam?","Nama latin Ikan ayam-ayam?","Apa Sih nama latin dari ikan ayam-ayam?","Nama latin dari ikan ayam-ayam apa ?","Nama latin dari ikan ayam-ayam itu apa?","Ikan ayam-ayam nama latinnya apa?", "Apa nama lain dari ikan ayam-ayam?", "Nama ilmiah ikan ayam-ayam?"],
+      "responses" : ["Nama latin dari ikan ayam-ayam adalah Abalistes stellaris"]
+    },
+    {
+      "tag" : "Gizi Ikan Ayam-ayam",
+      "patterns" : ["Gizi yang terkandung dalam ikan ayam-ayam","Apa gizi dari ikan ayam-ayam?","Gizi apa yang dimiliki ikan ayam-ayam?","Kandungan gizi apa yang terdapat pada ikan ayam-ayam?"],
+      "responses" : ["gizi yang terkandung dalam ikan ayam-ayam memiliki dkandungan omega 3 yang lebih tinggi, Kandungan utama ikan laut adalah zat makro molekul tubuh misalnya seperti protein tinggi, lemak, vitamin dan mineral."]
+    },
+    {
+      "tag" : "Harga Ikan Ayam-ayam",
+      "patterns" : ["Berapa harga 1 KG ikan ayam-ayam?","Harga 1 KG ikan ayam-ayam?", "Berapa harga ikan ayam-ayam?"],
+      "responses" : [
+        "Harga 1 kg ikan ayam-ayam adalah Rp.30.000,00",
+        "Harga ikan ayam-ayam adalah Rp.30.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan Ayam-ayam",
+      "patterns" : ["Apa makanan ikan ayam-ayam”, “makanan ikan ayam-ayam?"],
+      "responses" : ["makanan ikan ayam-ayam yaitu hewan bentik seperti bentos (Oviparous) krustasea, kepiting, moluska, ikan bertulang."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Ayam-ayam",
+      "patterns" : ["klasifikasi ikan ayam-ayam?"],
+      "responses" : ["Ikan ayam-ayam diklasifikasikan sebagai Kingdom  Kingdom Animalia,Phyllum chordate,Class actinopterygii,Ordo tetraodontiformes,Family Balistidae,Genus Abalistes,Spesies Abalistes stellaris."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Ayam-ayam",
+      "patterns" : ["cara mengolah ikan ayam-ayam?","Bagaimana cara mengolah ikan ayam-ayam?", "Tips mengolah ikan ayam-ayam", "Bagaimana pengolahan Ikan ayam-ayam"],
+      "responses" : ["cara mengelolah ayam-ayam yaitu dibakar"]
+    },
+    {
+      "tag" : "Musim Ikan Ayam-ayam",
+      "patterns" : ["Pada bulan apa musim Ikan ayam-ayam?", "Kapan musim Ikan ayam-ayam", "Kapan puncak musim Ikan ayam-ayam?"],
+      "responses" : [" musim ikan ayam-ayam itu Juni-Agustus"]
+    },
+    {
+      "tag"  : "Habitat Ikan Ayam-ayam",
+      "patterns" : ["Dimana habitat ikan ayam-ayam?", "Habitat ikan ayam-ayam", "Dimana Ikan ayam-ayam tinggal?"],
+      "responses" : ["Habitat ikan ayam-ayam adalah hidup demersal (hidup di laut dasar) dan amphidromous (bermigrasi dari perairan asin dan perairan tawar). Hidup menyukai terumbu karang dekat hewan spons atau alga laut, serta dasar berpasir."]
+    },
+   
+    {
+      "tag" : "Ikan Sembilang",
+      "patterns" : [ "Apa itu ikan sembilang?","ikan sembilang itu apa?","Apa sih ikan sembilang?"],
+      "responses" : ["Ikan sembilan adalah predator ikan-ikan kecil dan termasuk jenis ikan laut. perbedaan ikan sembilang itu terdapat 2 jenis ikan sembilang yaitu ikan sembilang batu dan ikan sembilang lubang."]
+    },
+    {
+      "tag" : "Nama latin Ikan Sembilang",
+      "patterns" : ["Apa nama latin Ikan sembilang?","Nama latin Ikan sembilang?","Apa Sih nama latin dari ikan sembilang?","Nama latin dari ikan sembilang apa ?","Nama latin dari ikan sembilang itu apa?","Ikan sembilang nama latinnya apa?", "Apa nama lain dari ikan sembilang?", "Nama ilmiah ikan sembilang?"],
+      "responses" : ["Nama latin dari ikan sembilang adalah Plotosus canius"]
+    },
+    {
+      "tag" : "Gizi Ikan Sembilang",
+      "patterns" : ["Gizi yang terkandung dalam ikan sembilang","Apa gizi dari ikan sembilang?","Gizi apa yang dimiliki ikan sembilang?","Kandungan gizi apa yang terdapat pada ikan sembilang?"],
+      "responses" : ["gizi yang terkandung dalam ikan sembilang memiliki kandungan Protein,Fosfor,Asam Lemak,Omega 3."]
+    },
+    {
+      "tag" : "Harga Ikan Sembilang",
+      "patterns" : ["Berapa harga 1 KG ikan sembilang?","Harga 1 KG ikan sembilang?", "Berapa harga ikan sembilang?"],
+      "responses" : [
+        "Harga 1 kg ikan sembilang adalah Rp.20.000,00",
+        "Harga ikan sembilang adalah Rp.20.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan Sembilang",
+      "patterns" : ["Apa makanan ikan sembilang”, “makanan ikan sembilang?"],
+      "responses" : ["makanan ikan sembilang yaitu memakan hewan-hewan yang hidup di dasar laut seperti gastropoda, moluska dan krustasea."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Sembilang",
+      "patterns" : ["klasifikasi ikan sembilang?"],
+      "responses" : ["Ikan sembilang diklasifikasikan sebagai Kingdom Animalia ,Phylum Chordata ,Class Actinopterygii,Ordo Siluformes,Family Plotosidae,Genus Plotosus,Spesies Euristhmus microceps."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Sembilang",
+      "patterns" : ["cara mengolah ikan sembilang?","Bagaimana cara mengolah ikan sembilang?", "Tips mengolah ikan sembilang", "Bagaimana pengolahan Ikan sembilang"],
+      "responses" : ["cara mengelolah sembilang yaitu lempah kuning"]
+    },
+    {
+      "tag" : "Musim Ikan Sembilang",
+      "patterns" : ["Pada bulan apa musim Ikan sembilang?", "Kapan musim Ikan sembilang", "Kapan puncak musim Ikan sembilang?"],
+      "responses" : [" musim ikan sembilang itu Juni-Agustus setelah melewati ini dibulan selanjutnya september masih sering didapat tapi mulai berkurang."]
+    },
+    {
+      "tag"  : "Habitat Ikan Sembilang",
+      "patterns" : ["Dimana habitat ikan sembilang?", "Habitat ikan sembilang", "Dimana Ikan sembilang tinggal?"],
+      "responses" : ["Habitat ikan sembilang adalah hidup hidup di laut dangkal, tak jarang juga banyak yang hidup di muara sungai."]
+    },
+    
+    {
+      "tag" : "Ikan Ekor kuning",
+      "patterns" : [ "Apa itu ikan ekor kuning?","ikan ekor kuning itu apa?","Apa sih ikan ekor kuning?"],
+      "responses" : ["Ikan Ekor kuning adalah Ikan laut yang hidup di perairan Indo-Pasifik. Ikan ini disebut fusilier, suli, sulih, suliri, sunin. Warna umumnya biru, kuning pada bagian belakangnya dan perak. Jenis ini dikenal sebagai perenang cepat dan termasuk ikan diurnal."]
+    },
+    {
+      "tag" : "Nama latin Ikan Ekor kuning",
+      "patterns" : ["Apa nama latin Ikan ekor kuning?","Nama latin Ikan ekor kuning?","Apa Sih nama latin dari ikan ekor kuning?","Nama latin dari ikan ekor kuning apa ?","Nama latin dari ikan ekor kuning itu apa?","Ikan ekor kuning nama latinnya apa?", "Apa nama lain dari ikan ekor kuning?", "Nama ilmiah ikan ekor kuning?"],
+      "responses" : ["Nama latin dari ikan sembilang adalah Caesionidae"]
+    },
+    {
+      "tag" : "Gizi Ikan Ekor kuning",
+      "patterns" : ["Gizi yang terkandung dalam ikan ekor kuning","Apa gizi dari ikan ekor kuning?","Gizi apa yang dimiliki ikan ekor kuning?","Kandungan gizi apa yang terdapat pada ikan ekor kuning?"],
+      "responses" : ["gizi yang terkandung dalam ikan ekor kuning Ikan Ekor kuning mengandung energi sebesar 109 kilokalori, protein 17 gram, karbohidrat 0 gram, lemak 4 gram, kalsium 500 miligram, fosfor 500 miligram, dan zat besi 1 miligram.  Selain itu di dalam Ikan Ekor kuning juga terkandung vitamin A sebanyak 150 IU, vitamin B1 0,05 miligram dan vitamin C 0 miligram.  Hasil tersebut didapat dari melakukan penelitian terhadap 100 gram Ikan Ekor kuning, dengan jumlah yang dapat dimakan sebanyak 80 %."]
+    },
+    {
+      "tag" : "Harga Ikan Ekor kuning",
+      "patterns" : ["Berapa harga 1 KG ikan ekor kuning?","Harga 1 KG ikan ekor kuning?", "Berapa harga ikan ekor kuning?"],
+      "responses" : [
+        "Harga 1 kg ikan ekor kuning adalah Rp.30.000,00",
+        "Harga ikan ekor kuning adalah Rp.30.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ekor kuning",
+      "patterns" : ["Apa makanan ikan ekor kuning”, “makanan ikan ekor kuning?"],
+      "responses" : ["makanan ikan ekor kuning yaitu memakan ikan herring bulat, sarden, cumi-cumi, teri,zooplankton dan ikan terbang California."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Ekor kuning",
+      "patterns" : ["klasifikasi ikan ekor kuning?"],
+      "responses" : ["Ikan ekor kuning diklasifikasikan sebagai Kingdom Animal, Phylum  Chordata ,Class Osteichtyes, Order Perciformes, Family Caesionidae, Genus Caesio, Species Caesio cuning."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Ekor kuning",
+      "patterns" : ["cara mengolah ikan ekor kuning?","Bagaimana cara mengolah ikan ekor kuning?", "Tips mengolah ikan ekor kuning", "Bagaimana pengolahan Ikan ekor kuning"],
+      "responses" : ["cara mengelolah ikan ekor kuning seperti pesmol ikan ekor kuning, ikan ekor kuning bakar, pindang ikan ekor kuning dll."]
+    },
+    {
+      "tag" : "Musim Ikan Ekor kuning",
+      "patterns" : ["Pada bulan apa musim Ikan ekor kuning?", "Kapan musim Ikan ekor kuning", "Kapan puncak musim Ikan ekor kuning?"],
+      "responses" : [" musim ikan ekor kuning adalah Februari-Mei dan bulan September."]
+    },
+    {
+      "tag"  : "Habitat Ikan Ekor kuning",
+      "patterns" : ["Dimana habitat ikan ekor kuning ?",
+       "Habitat ikan ekor kuning", "Dimana Ikan ekor kuning tinggal?"],
+      "responses" : ["Habitat ikan ekor kuning adalah perairan pantai berkarang, perairan karang dengan suhu lebih dari 20 C. Ikan ekor kuning berasosiasi dengan terumbu karang dan dapat ditemukan pada kedalaman 1-60 meter.."]
+    },
+  
+    {
+      "tag" : "Ikan Ayam-ayam",
+      "patterns" : [ "Apa itu ikan ayam-ayam?","ikan ayam-ayam itu apa?","Apa sih ikan ayam-ayam?"],
+      "responses" : ["Ikan ayam-ayam , dikenal pula sebagai ikan etong, jebong, atau kambing-kambing adalah ikan laut komsumsi populer yang biasa diolah sebagai ikan bakar. Ikan ini biasa ditemukan di perairan hangat kawasan Indo-Pasifik, mulai dari Laut Merah sampai Samudera Pasifik bagian barat. "]
+    },
+    {
+      "tag" : "Nama latin Ikan Ayam-ayam",
+      "patterns" : ["Apa nama latin Ikan ayam-ayam?","Nama latin Ikan ayam-ayam?","Apa Sih nama latin dari ikan ayam-ayam?","Nama latin dari ikan ayam-ayam apa ?","Nama latin dari ikan ayam-ayam itu apa?","Ikan ayam-ayam nama latinnya apa?", "Apa nama lain dari ikan ayam-ayam?", "Nama ilmiah ikan ayam-ayam?"],
+      "responses" : ["Nama latin dari ikan ayam-ayam adalah Abalistes stellaris"]
+    },
+    {
+      "tag" : "Gizi Ikan Ayam-ayam",
+      "patterns" : ["Gizi yang terkandung dalam ikan ayam-ayam","Apa gizi dari ikan ayam-ayam?","Gizi apa yang dimiliki ikan ayam-ayam?","Kandungan gizi apa yang terdapat pada ikan ayam-ayam?"],
+      "responses" : ["gizi yang terkandung dalam ikan ayam-ayam memiliki dkandungan omega 3 yang lebih tinggi, Kandungan utama ikan laut adalah zat makro molekul tubuh misalnya seperti protein tinggi, lemak, vitamin dan mineral."]
+    },
+    {
+      "tag" : "Harga Ikan Ayam-ayam",
+      "patterns" : ["Berapa harga 1 KG ikan ayam-ayam?","Harga 1 KG ikan ayam-ayam?", "Berapa harga ikan ayam-ayam?"],
+      "responses" : [
+        "Harga 1 kg ikan ayam-ayam adalah Rp.30.000,00",
+        "Harga ikan ayam-ayam adalah Rp.30.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan Ayam-ayam",
+      "patterns" : ["Apa makanan ikan ayam-ayam”, “makanan ikan ayam-ayam?"],
+      "responses" : ["makanan ikan ayam-ayam yaitu hewan bentik seperti bentos (Oviparous) krustasea, kepiting, moluska, ikan bertulang."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Ayam-ayam",
+      "patterns" : ["klasifikasi ikan ayam-ayam?"],
+      "responses" : ["Ikan ayam-ayam diklasifikasikan sebagai Kingdom  Kingdom Animalia,Phyllum chordate,Class actinopterygii,Ordo tetraodontiformes,Family Balistidae,Genus Abalistes,Spesies Abalistes stellaris."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Ayam-ayam",
+      "patterns" : ["cara mengolah ikan ayam-ayam?","Bagaimana cara mengolah ikan ayam-ayam?", "Tips mengolah ikan ayam-ayam", "Bagaimana pengolahan Ikan ayam-ayam"],
+      "responses" : ["cara mengelolah ayam-ayam yaitu dibakar"]
+    },
+    {
+      "tag" : "Musim Ikan Ayam-ayam",
+      "patterns" : ["Pada bulan apa musim Ikan ayam-ayam?", "Kapan musim Ikan ayam-ayam", "Kapan puncak musim Ikan ayam-ayam?"],
+      "responses" : [" musim ikan ayam-ayam itu Juni-Agustus"]
+    },
+    {
+      "tag"  : "Habitat Ikan Ayam-ayam",
+      "patterns" : ["Dimana habitat ikan ayam-ayam?", "Habitat ikan ayam-ayam", "Dimana Ikan ayam-ayam tinggal?"],
+      "responses" : ["Habitat ikan ayam-ayam adalah hidup demersal (hidup di laut dasar) dan amphidromous (bermigrasi dari perairan asin dan perairan tawar). Hidup menyukai terumbu karang dekat hewan spons atau alga laut, serta dasar berpasir."]
+    },
+   
+    {
+      "tag" : "Ikan Sembilang",
+      "patterns" : [ "Apa itu ikan sembilang?","ikan sembilang itu apa?","Apa sih ikan sembilang?"],
+      "responses" : ["Ikan sembilan adalah predator ikan-ikan kecil dan termasuk jenis ikan laut. perbedaan ikan sembilang itu terdapat 2 jenis ikan sembilang yaitu ikan sembilang batu dan ikan sembilang lubang."]
+    },
+    {
+      "tag" : "Nama latin Ikan Sembilang",
+      "patterns" : ["Apa nama latin Ikan sembilang?","Nama latin Ikan sembilang?","Apa Sih nama latin dari ikan sembilang?","Nama latin dari ikan sembilang apa ?","Nama latin dari ikan sembilang itu apa?","Ikan sembilang nama latinnya apa?", "Apa nama lain dari ikan sembilang?", "Nama ilmiah ikan sembilang?"],
+      "responses" : ["Nama latin dari ikan sembilang adalah Plotosus canius"]
+    },
+    {
+      "tag" : "Gizi Ikan Sembilang",
+      "patterns" : ["Gizi yang terkandung dalam ikan sembilang","Apa gizi dari ikan sembilang?","Gizi apa yang dimiliki ikan sembilang?","Kandungan gizi apa yang terdapat pada ikan sembilang?"],
+      "responses" : ["gizi yang terkandung dalam ikan sembilang memiliki kandungan Protein,Fosfor,Asam Lemak,Omega 3."]
+    },
+    {
+      "tag" : "Harga Ikan Sembilang",
+      "patterns" : ["Berapa harga 1 KG ikan sembilang?","Harga 1 KG ikan sembilang?", "Berapa harga ikan sembilang?"],
+      "responses" : [
+        "Harga 1 kg ikan sembilang adalah Rp.20.000,00",
+        "Harga ikan sembilang adalah Rp.20.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan Sembilang",
+      "patterns" : ["Apa makanan ikan sembilang”, “makanan ikan sembilang?"],
+      "responses" : ["makanan ikan sembilang yaitu memakan hewan-hewan yang hidup di dasar laut seperti gastropoda, moluska dan krustasea."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Sembilang",
+      "patterns" : ["klasifikasi ikan sembilang?"],
+      "responses" : ["Ikan sembilang diklasifikasikan sebagai Kingdom Animalia ,Phylum Chordata ,Class Actinopterygii,Ordo Siluformes,Family Plotosidae,Genus Plotosus,Spesies Euristhmus microceps."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Sembilang",
+      "patterns" : ["cara mengolah ikan sembilang?","Bagaimana cara mengolah ikan sembilang?", "Tips mengolah ikan sembilang", "Bagaimana pengolahan Ikan sembilang"],
+      "responses" : ["cara mengelolah sembilang yaitu lempah kuning"]
+    },
+    {
+      "tag" : "Musim Ikan Sembilang",
+      "patterns" : ["Pada bulan apa musim Ikan sembilang?", "Kapan musim Ikan sembilang", "Kapan puncak musim Ikan sembilang?"],
+      "responses" : [" musim ikan sembilang itu Juni-Agustus setelah melewati ini dibulan selanjutnya september masih sering didapat tapi mulai berkurang."]
+    },
+    {
+      "tag"  : "Habitat Ikan Sembilang",
+      "patterns" : ["Dimana habitat ikan sembilang?", "Habitat ikan sembilang", "Dimana Ikan sembilang tinggal?"],
+      "responses" : ["Habitat ikan sembilang adalah hidup hidup di laut dangkal, tak jarang juga banyak yang hidup di muara sungai."]
+    },
+  
+    {
+      "tag" : "Ikan Pari burung",
+      "patterns" : [ "Apa itu ikan pari burung?","ikan pari burung itu apa?","Apa sih ikan pari burung?"],
+      "responses" : ["Ikan ikan pari burung adalah sejenis ikan bertulang rawan anggota suku pari burung (Myliobatidae). Pari ini menyebar di perairan tropis Indo-Pasifik Barat."]
+    },
+    {
+      "tag" : "Nama latin Ikan Ekor kuning",
+      "patterns" : ["Apa nama latin Ikan ekor kuning?","Nama latin Ikan ekor kuning?","Apa Sih nama latin dari ikan ekor kuning?","Nama latin dari ikan ekor kuning apa ?","Nama latin dari ikan ekor kuning itu apa?","Ikan ekor kuning nama latinnya apa?", "Apa nama lain dari ikan ekor kuning?", "Nama ilmiah ikan ekor kuning?"],
+      "responses" : [" Nama latin dari ikan sembilang adalah Caesionidae"]
+    },
+    {
+      "tag" : "Gizi Ikan Ekor kuning",
+      "patterns" : ["Gizi yang terkandung dalam ikan ekor kuning","Apa gizi dari ikan ekor kuning?","Gizi apa yang dimiliki ikan ekor kuning?","Kandungan gizi apa yang terdapat pada ikan ekor kuning?"],
+      "responses" : ["gizi yang terkandung dalam ikan ekor kuning Ikan Ekor kuning mengandung energi sebesar 109 kilokalori, protein 17 gram, karbohidrat 0 gram, lemak 4 gram, kalsium 500 miligram, fosfor 500 miligram, dan zat besi 1 miligram.  Selain itu di dalam Ikan Ekor kuning juga terkandung vitamin A sebanyak 150 IU, vitamin B1 0,05 miligram dan vitamin C 0 miligram.  Hasil tersebut didapat dari melakukan penelitian terhadap 100 gram Ikan Ekor kuning, dengan jumlah yang dapat dimakan sebanyak 80 %."]
+    },
+    {
+      "tag" : "Harga Ikan Ekor kuning",
+      "patterns" : ["Berapa harga 1 KG ikan ekor kuning?","Harga 1 KG ikan ekor kuning?", "Berapa harga ikan ekor kuning?"],
+      "responses" : [
+        "Harga 1 kg ikan ekor kuning adalah Rp.30.000,00",
+        "Harga ikan ekor kuning adalah Rp.30.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan Ekor kuning",
+      "patterns" : ["Apa makanan ikan ekor kuning”, “makanan ikan ekor kuning?"],
+      "responses" : ["makanan ikan ekor kuning yaitu memakan ikan herring bulat, sarden, cumi-cumi, teri,zooplankton dan ikan terbang California."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Ekor kuning",
+      "patterns" : ["klasifikasi ikan ekor kuning?"],
+      "responses" : ["Ikan ekor kuning diklasifikasikan sebagai Kingdom Animal, Phylum  Chordata ,Class Osteichtyes, Order Perciformes, Family Caesionidae, Genus Caesio, Species Caesio cuning."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Ekor kuning",
+      "patterns" : ["cara mengolah ikan ekor kuning?","Bagaimana cara mengolah ikan ekor kuning?", "Tips mengolah ikan ekor kuning", "Bagaimana pengolahan Ikan ekor kuning"],
+      "responses" : ["cara mengelolah ikan ekor kuning seperti pesmol ikan ekor kuning, ikan ekor kuning bakar, pindang ikan ekor kuning dll."]
+    },
+    {
+      "tag" : "Musim Ikan Ekor kuning",
+      "patterns" : ["Pada bulan apa musim Ikan ekor kuning?", "Kapan musim Ikan ekor kuning", "Kapan puncak musim Ikan ekor kuning?"],
+      "responses" : [" musim ikan ekor kuning adalah Februari-Mei dan bulan September."]
+    },
+    {
+      "tag"  : "Habitat Ikan Ekor kuning",
+      "patterns" : ["Dimana habitat ikan ekor kuning ?",
+       "Habitat ikan ekor kuning", "Dimana Ikan ekor kuning tinggal?"],
+      "responses" : ["Habitat ikan ekor kuning adalah perairan pantai berkarang, perairan karang dengan suhu lebih dari 20 C. Ikan ekor kuning berasosiasi dengan terumbu karang dan dapat ditemukan pada kedalaman 1-60 meter.."]
+    },
+   
+    {
+      "tag" : "Ikan Pari burung",
+      "patterns" : [ "Apa itu ikan pari burung ?","ikan pari burung itu apa?","Apa sih ikan burung?"],
+      "responses" : ["Ikan Pari burung adalah sejenis ikan bertulang rawan anggota suku pari burung. Pari ini menyebar di perairan tropis Indo-Pasifik Barat. "]
+    },
+    {
+      "tag" : "Nama latin Pari burung",
+      "patterns" : ["Apa nama latin pari burung?","Nama latin Ikan pari burung?","Apa Sih nama latin dari ikan pari burung?","Nama latin dari ikan pari burung apa ?","Nama latin dari ikan pari burung itu apa?","Ikan pari burung nama latinnya apa?", "Apa nama lain dari ikan pari burung?", "Nama ilmiah ikan pari burung?"],
+      "responses" : ["Nama latin dari ikan pari burung adalah Aetobatus ocellatus"]
+    },
+    {
+      "tag" : "Gizi Ikan Pari burung",
+      "patterns" : ["Gizi yang terkandung dalam ikan pari burung","Apa gizi dari pari burung?","Gizi apa yang dimiliki ikan pari burung?","Kandungan gizi apa yang terdapat pada ikan pari burung?"],
+      "responses" : ["dari beberapa hasil penelitian para ahli menunjukan bahwa ikan pari burung mempunyai kadar lemak rata-rata daging adalah 3% kadar karbohidrat adalah 2,75% kadar protein rata-rata 2,5% dan kadar glukosa 2,5 %."]
+    },
+    {
+      "tag" : "Harga Ikan Pari burung",
+      "patterns" : ["Berapa harga 1 KG ikan pari burung?","Harga 1 KG ikan pari burung?", "Berapa harga ikan pari burung?"],
+      "responses" : [
+        "Harga 1 kg ikan pari burung adalah Rp.35.000,00",
+        "Harga ikan pari burung adalah Rp.35.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan pari burung",
+      "patterns" : ["Apa makanan ikan pari burung?”, “makanan ikan pari burung?"],
+      "responses" : ["makanan ikan pari burung adalah memakan memakan  gastropoda, bivalvia, cacing, krustasea, gurita,ikan kecil,kerang, kepiting, udang, gurita dan siput."]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Pari burung",
+      "patterns" : ["klasifikasi ikan pari burung?"],
+      "responses" : ["Ikan pari burung diklasifikasikan dalam Kerajaan: Animalia, Filum: Chordata, Kelas: Chondrichthyes, Ordo: Myliobatiformes, Famili: Myliobatidae, Genus: Aetobatus, Spesies: A ocellatus."]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Pari burung",
+      "patterns" : ["cara mengolah ikan pari burung?","Bagaimana cara mengolah ikan pari burung?", "Tips mengolah ikan pari burung", "Bagaimana pengolahan Ikan pari burung"],
+      "responses" : ["cara mengelolah ikan burung yaitu di mangut,di asap dan dibuat abon"]
+    },
+    {
+      "tag" : "Musim Ikan pari burung",
+      "patterns" : ["Pada bulan apa musim Ikan pari burung?", "Kapan musim Ikan pari burung", "Kapan puncak musim Ikan pari burung?"],
+      "responses" : [" Musim ikan pari burung antara setiap bulan ada tegantung kondisinya"]
+    },
+    {
+      "tag"  : "Habitat Ikan Pari burung",
+      "patterns" : ["Dimana habitat ikan pari burung?", "Habitat ikan pari burung", "Dimana Ikan pari burung tinggal?"],
+      "responses" : ["Habitat ikan pari burung adalah  perairan terumbu karang, estuaria, teluk, dan sepanjang pantai."]
+    },
+  
+    {
+      "tag" : "Ikan Pari kekeh",
+      "patterns" : [ "Apa itu ikan pari burung ?","ikan pari burung itu apa?","Apa sih ikan burung?"],
+      "responses" : ["Ikan Pari burung adalah merupakan salah satu ikan dari kelas Chondrichthyans yang termasuk ke dalam kelompok ordo Rhinopristiformes.Seekor ikan baji besar dengan moncong runcing akut, agak 'berbentuk botol'. Panjang moncong 3,6-4,7 x panjang orbit. Spirakel dengan 2 lipatan kulit pendek berukuran sama"]
+    },
+    {
+      "tag" : "Nama latin Pari kekeh",
+      "patterns" : ["Apa nama latin pari kekeh?","Nama latin Ikan pari kekeh?","Apa Sih nama latin dari ikan pari kekeh?","Nama latin dari ikan pari kekeh apa ?","Nama latin dari ikan pari kekeh itu apa?","Ikan pari kekeh nama latinnya apa?", "Apa nama lain dari ikan pari kekeh?", "Nama ilmiah ikan pari kekeh?"],
+      "responses" : ["Nama latin dari ikan pari kekeh adalah Rhynchobatus"]
+    },
+    {
+      "tag" : "Gizi Ikan Pari burung",
+      "patterns" : ["Gizi yang terkandung dalam ikan pari burung","Apa gizi dari pari burung?","Gizi apa yang dimiliki ikan pari burung?","Kandungan gizi apa yang terdapat pada ikan pari burung?"],
+      "responses" : ["dari beberapa hasil penelitian para ahli menunjukan bahwa ikan pari burung mempunyai kadar lemak rata-rata daging adalah 3% kadar karbohidrat adalah 2,75% kadar protein rata-rata 2,5% dan kadar glukosa 2,5 %."]
+    },
+    {
+      "tag" : "Harga Ikan Pari kekeh",
+      "patterns" : ["Berapa harga 1 KG ikan pari kekeh?","Harga 1 KG ikan pari kekeh?", "Berapa harga ikan pari kekeh?"],
+      "responses" : [
+        "Harga 1 kg ikan pari kekeh adalah Rp.35.000,00",
+        "Harga ikan pari kekeh adalah Rp.35.000,00 perkilo"]
+    },
+    {
+      "tag" : "Makanan ikan pari kekeh",
+      "patterns" : ["Apa makanan ikan pari kekeh?”, “makanan ikan pari kekeh?"],
+      "responses" : ["makanan ikan pari kekeh adalah memakan memakan kerang, kepiting, dan udang"]
+  
+    },
+    {
+      "tag" : "klasifikasi ikan Pari kekeh",
+      "patterns" : ["klasifikasi ikan pari kekeh?"],
+      "responses" : ["Ikan pari kekeh diklasifikasikan dalam Kerajaan: Animalia, Filum: Chordata, Kelas: Chondrichthyes, Ordo: Rhinopristiformes, Famili: Rhinidae, Genus: Rhynchobatu, Spesies: Rhynchobatus  australiae,  Rhynchobatus springeri,  Rhynchobatus  laevis,  Rhynchobatus palpebratus dan Rhina ancylostoma"]
+    },
+    {
+      "tag" : "Tips pengolahan Ikan Pari kekeh",
+      "patterns" : ["cara mengolah ikan pari kekeh?","Bagaimana cara mengolah ikan pari kekeh?", "Tips mengolah ikan pari kekeh", "Bagaimana pengolahan Ikan pari kekeh"],
+      "responses" : ["cara mengelolah ikan kekeh yaitu di mangut,di asap."]
+    },
+    {
+      "tag" : "Musim Ikan pari kekeh",
+      "patterns" : ["Pada bulan apa musim Ikan pari kekeh?", "Kapan musim Ikan pari kekeh", "Kapan puncak musim Ikan pari kekeh?"],
+      "responses" : [" Musim ikan pari kekeh antara setiap bulan ada tegantung kondisinya karena pari kekeh sekarang diindonesia sangat langkah."]
+    },
+    {
+      "tag"  : "Habitat Ikan Pari kekeh",
+      "patterns" : ["Dimana habitat ikan pari kekeh?", "Habitat ikan pari kekeh", "Dimana Ikan pari kekeh tinggal?"],
+      "responses" : ["Habitat ikan pari kekeh termasuk jenis Demersal .Menurut Last et al. (2016), kawasan perairan Indo-Pasifik merupakan pusat habitat hidup pari kekeh dan pari kikir dengan kelimpahan yang tinggi. perairan dangkal hingga kedalaman setidaknya 60 m (200 kaki)"]
+    },
+    {
+      "tag": "Ikan_selanget",
+      "patterns": [
+        "Apa itu ikan selanget?", "ikan selanget itu apa?", "Apa sih ikan selanget?"
+      ],
+      "responses": ["merupakan salah satu ikan dasar yang biasa bergerombol yang hidup di perairan pantai. Ikan selanget memiliki nilai ekologis dan ekonomis.Ikan Selangat memiliki ciri-ciri morfologi tubuh pipih lateral, mulut ikan berbentuk inferior, terdapat bintik hitam pada belakang tutup insang dan jenis sisik ikan sikloid."]
+    }, 
+    {
+      "tag": "Nama latin ikan selanget",
+      "patterns": [
+        "Apa nama latin ikan selanget?",
+        "Nama latin ikan selanget?",
+        "Apa Sih nama latin dari ikan selanget?",
+        "Nama latin dari ikan selanget apa ?",
+        "Nama latin dari ikan selanget itu apa?",
+        "ikan selanget nama latinnya apa?",
+        "Apa nama lain dari ikan selanget?",
+        "Nama ilmiah ikan selanget?"
+      ],
+      "responses": ["nama latin dari ikan selanget adalah Anodontostoma chacunda", "ikan selanget memiliki nama latin adalah Anodontostoma chacunda"]
+    }, 
+    {
+      "tag": "Gizi ikan selanget",
+      "patterns": [
+        "Gizi yang terkandung dalam ikan selanget", "Apa gizi dari ikan selanget ?", "Gizi apa yang dimiliki ikan selanget?", "Kandungan gizi apa yang terdapat pada ikan selanget?", "Gizi apa yang dimiliki ikan selanget?"
+      ],
+      "responses": ["kandungan omega-3 yang tinggi pada ikan selanget memiliki manfaat yang bagus untuk kesehatan tubuh kita.Protein yang tinggi dalam daging ikan memiliki manfaat untuk memetabolisme sel. Serta perbaikan jaringan ikat dan pertumbuhan sel-sel baru dalam tubuh.Kandungan gizi lainnya seperti vitamin dan mineral dalam daginng ikan dapat membantu menjaga sistem kekebalan tubuh."]
+    }, 
+    {
+      "tag": "Harga ikan selanget",
+      "patterns": ["Berapa harga 1 KG ikan selanget?", "Harga 1 KG ikan selanget?", "Berapa harga ikan selanget?"],
+      "responses":["Harga ikan Selanget cukup tinggi, Sebelum Ramadan hingga usai lebaran, biasanya harga ikan ini rata-rata Rp 60 ribu per kilogram."
+      ]
+    }, 
+    {
+      "tag": "Makanan ikan selanget",
+      "patterns": ["Apa makanan ikan selanget?", "makanan ikan selanget?"],
+      "responses":["Makanan utama ikan selanget adalah Bacillariophyceae; makanan pelengkapnya adalah mikro krustase; dan makanan tambahannya adalah larva moluska."
+    ]
+    }, 
+    {
+      "tag" : "klasifikasi ikan selanget",
+      "patterns" : ["klasifikasi ikan selanget?"],
+      "responses":["Ikan ini merupakan dari keluarga Clupeidae"
+    ]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan selanget?",
+        "Bagaimana cara mengolah ikan selanget?",
+        "Tips mengolah ikan selanget",
+        "Bagaimana pengolahan ikan selanget"],
+      "responses":["Cara pengolahan ikan selanget sangat bervariatif, tetapi kami menyarankan untuk diolah dengan menggunakan bumbu balado, cita rasa yang dihasilkan sangat cocok di sajikan dalam musin dingin ataupun panas"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan selanget",
+      "patterns": ["Pada bulan apa musim ikan selanget?", "Kapan musim ikan selanget?","Kapan puncak musim ikan selanget?"],
+      "responses":["Musim terbaik untuk ikan selanget terjadi pada bulan Desember"]
+    }, 
+      
+    {
+      "tag"  : "Habitat ikan selanget", 
+      "patterns": ["Dimana habitat ikan selanget?","Habitat ikan selanget","Dimana ikan selanget tinggal? "],
+      "responses":["Ikan Selangat memiliki habitat di dasar perairan pantai dan estuari dengan gerombolan yang tidak terlalu besar, umumnya hidup di pesisir lautan, kadang-kadang naik ke perairan sungai dan ke zona pasang surut"]
+    }, 
+    {
+      "tag": "ikan_tetengkek",
+      "patterns": [
+        "Apa itu ikan tetengkek?", "ikan tetengkek itu apa?", "Apa sih ikan tetengkek?"],
+      "responses": ["Ikan Tetengkek atau selar atau kacangan adalah ikan berukuran sedang darifamiliaCaranagidae. Ikan dengan ukuran panjang 27 cm bida mencapai 1 m. Tubuh ikancakalangfusiform(ideal), memanjang dan agak bulat. Kepala dan punggung berwarnaabu kebiruan sampai hijau, bagian perut keperakan. Bentuk mulut superior, posisi mulutberada di bagian agak atas ujung kepala."]
+    }, 
+    {
+      "tag": "Nama latin ikan tetengkek",
+      "patterns": [
+        "Apa nama latin ikan tetengkek?",
+        "Nama latin ikan tetengkek?",
+        "Apa Sih nama latin dari ikan tetengkek?",
+        "Nama latin dari ikan tetengkek apa ?",
+        "Nama latin dari ikan tetengkek itu apa?",
+        "ikan tetengkek nama latinnya apa?",
+        "Apa nama lain dari ikan tetengkek?",
+        "Nama ilmiah ikan tetengkek?"],
+      "responses": ["nama latin dari ikan tetengkek adalah Megalaspis cordyla", "ikan tetengkek memiliki nama latin adalah Megalaspis cordyla"]
+    }, 
+    {
+      "tag": "Gizi ikan tetengkek",
+      "patterns": [
+        "Gizi yang terkandung dalam ikan tetengkek", "Apa gizi dari ikan tetengkek ?", "Gizi apa yang dimiliki ikan tetengkek?", "Kandungan gizi apa yang terdapat pada ikan tetengkek?", "Gizi apa yang dimiliki ikan tetengkek?"],
+      "responses": ["Minyak ikan Tetengkek yang kaya omega 3, dalam jumlah maksimal dapat menurunkan kadar superoksida yang sangat merusak sel-sel otot jantung. Omega 3 juga dapat mencegah dan menyetabilkan tekanan darah tinggin dan mencegah resiko penyakit stroke."]
+    }, 
+    {
+      "tag": "Harga ikan tetengkek",
+      "patterns": ["Berapa harga 1 KG ikan tetengkek?", "Harga 1 KG ikan tetengkek?", "Berapa harga ikan tetengkek?"],
+      "responses":["Harga ikan tetengkek untuk 1 kg diperkirankan sekitar 20-35 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan tetengkek",
+      "patterns": ["Apa makanan ikan tetengkek?", "makanan ikan tetengkek?"],
+      "responses":["Ikan ini biasanya memakan fitoplankton dan ikan-ikan kecil"]
+    }, 
+    {
+      "tag" : "klasifikasi ikan tetengkek",
+      "patterns" : ["klasifikasi ikan tetengkek?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopterygii, Ordo : Perciformes, Famili : Carangidae, Genus : Megalaspis"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan tetengkek?",
+        "Bagaimana cara mengolah ikan tetengkek?",
+        "Tips mengolah ikan tetengkek",
+        "Bagaimana pengolahan ikan tetengkek"],
+      "responses":["Berikut beberapa cara pengolahan ikan tetengkek : 1. Ikan tetengkek bumbu kuning, 2. Ikan tetengkek balado, 3. ikan tetengkek panggang 4. Tumis ikan tetengkek"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan tetengkek",
+      "patterns": ["Pada bulan apa musim ikan tetengkek?", "Kapan musim ikan tetengkek?","Kapan puncak musim ikan tetengkek?"],
+      "responses":["Puncak musin untuk ikan tetengkek terjadi pada bulan Oktober"]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan tetengkek", 
+      "patterns": ["Dimana habitat ikan tetengkek?","Habitat ikan tetengkek","Dimana ikan tetengkek tinggal? "],
+      "responses":["Ikan ini memiliki habitat asli di samudera Hindia dan Pasifik."]
+    },
+  
+    {
+      "tag": "ikan_tongkol_abu-abu",
+      "patterns": ["Apa itu ikan tongkol abu-abu?", "ikan tongkol abu-abu itu apa?", "Apa sih ikan tongkol abu-abu?"],
+      "responses": ["Ikan Tongkol abu-abu memiliki ciri fisik lebih ramping dan sirip dada yang lebih pendek dibandingkan dengan jenis-jenis tuna yang disebutkan di atas. Panjang badan bisa mencapai 145 sentimetre (57 in) dan beratnya bisa mencapai 359 kilogram."]
+    }, 
+    {
+      "tag": "Nama latin ikan tongkol abu-abu",
+      "patterns": [
+        "Apa nama latin ikan tongkol abu-abu?",
+        "Nama latin ikan tongkol abu-abu?",
+        "Apa Sih nama latin dari ikan tongkol abu-abu?",
+        "Nama latin dari ikan tongkol abu-abu apa ?",
+        "Nama latin dari ikan tongkol abu-abu itu apa?",
+        "ikan tongkol abu-abu nama latinnya apa?",
+        "Apa nama lain dari ikan tongkol abu-abu?",
+        "Nama ilmiah ikan tongkol abu-abu?"
+      ],
+      "responses": ["nama latin dari ikan tongkol abu-abu adalah Thunnus tonggol", "ikan tongkol abu-abu memiliki nama latin adalah Thunnus tonggol"]
+    }, 
+    {
+      "tag": "Gizi ikan tongkol abu-abu",
+      "patterns": [
+        "Gizi yang terkandung dalam ikan tongkol abu-abu", "Apa gizi dari ikan tongkol abu-abu ?", "Gizi apa yang dimiliki ikan tongkol abu-abu?", "Kandungan gizi apa yang terdapat pada ikan tongkol abu-abu?", "Gizi apa yang dimiliki ikan tongkol abu-abu?"],
+      "responses": ["Dalam seporsi ikan tongkol (setara 150 gram), terkandung 250-300 kalori dan aneka nutrisi, seperti: 25-30 gram protein. 12,5-17 gram lemak. 50-60 mikrogram (mcg) selenium"]
+    }, 
+    {
+      "tag": "Harga ikan tongkol abu-abu",
+      "patterns": ["Berapa harga 1 KG ikan tongkol abu-abu?", "Harga 1 KG ikan tongkol abu-abu?", "Berapa harga ikan tongkol abu-abu?"],
+      "responses":["Harga ikan tongkol abu-abu untuk 1 kg diperkirankan sekitar 50-60 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan tongkol abu-abu",
+      "patterns": ["Apa makanan ikan tongkol abu-abu?", "makanan ikan tongkol abu-abu?"],
+      "responses":["Ikan ini biasanya memakan ikan-ikan kecil dan sering kali memakan cumi-cumi"]
+    }, 
+    {
+      "tag" : "klasifikasi ikan tongkol abu-abu",
+      "patterns" : ["klasifikasi ikan tongkol abu-abu?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopterygii, Ordo : Perciformes, Famili : Scombridae, Genus : Thunnus"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan tongkol abu-abu?",
+        "Bagaimana cara mengolah ikan tongkol abu-abu?",
+        "Tips mengolah ikan tongkol abu-abu",
+        "Bagaimana pengolahan ikan tongkol abu-abu"],
+      "responses":["Berikut beberapa cara pengolahan ikan tongkol abu-abu : 1. Ikan tongkol abu-abu sambal kecap, 2. Ikan tongkol abu-abu bumbu balado, 3. ikan tongkol abu-abu kuah asam 4. Tumis ikan tongkol abu-abu"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan tongkol abu-abu",
+      "patterns": ["Pada bulan apa musim ikan tongkol abu-abu?", "Kapan musim ikan tongkol abu-abu?","Kapan puncak musim ikan tongkol abu-abu?"],
+      "responses":["Musim ikan tongkol abu-abu terjadi pada bulan April-Juni dan Agustus-November dimana puncaknya terjadi pada bulan September."]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan tongkol abu-abu", 
+      "patterns": ["Dimana habitat ikan tongkol abu-abu?","Habitat ikan tongkol abu-abu","Dimana ikan tongkol abu-abu tinggal? "],
+      "responses":["Tongkol abu-abu menyebar luas terutama di perairan tropis dan ugahari Indo-Pasifik Barat, yakni di wilayah Samudra Hindia mulai dari pesisir Somalia, Laut Merah, pesisir selatan Semenanjung Arabia, ke arah timur ke pesisir anak-benua India, pesisir dan laut-laut pedalaman di Asia Tenggara dan Nusantara"]
+    },
+  
+    {
+      "tag": "ikan_lemadang",
+      "patterns": [
+        "Apa itu ikan lemadang?", "ikan lemadang  itu apa?", "Apa sih ikan lemadang?"],
+      "responses": ["Ikan ini memiliki Tubuh berwarna biru cerah, hijau dan kuning dan memiliki bentuk tubuh yang panjang dengan wajah pendek yang khas. Tubuhnya yang cukup besar membuat ikan mahi mahi juga disebut sebagai lumba-lumba atau blue water beauties dolphin (Coryphaena hippurus). Meski demikian, ikan ini tidak memiliki hubungan dengan mamalia sama sekali."]
+    }, 
+    {
+      "tag": "Nama latin ikan lemadang",
+      "patterns": [
+        "Apa nama latin ikan lemadang?",
+        "Nama latin ikan lemadang?",
+        "Apa Sih nama latin dari ikan lemadang?",
+        "Nama latin dari ikan lemadang ?",
+        "Nama latin dari ikan lemadang itu apa?",
+        "ikan lemadang nama latinnya apa?",
+        "Apa nama lain dari ikan lemadang?",
+        "Nama ilmiah ikan lemadang?"],
+      "responses": ["nama latin dari ikan lemadang adalah Coryphaena hippurus", "ikan lemadang memiliki nama latin adalah Coryphaena hippurus"]
+    }, 
+    {
+      "tag": "Gizi ikan lemadang",
+      "patterns": [
+      "Gizi yang terkandung dalam ikan lemadang", "Apa gizi dari ikan lemadang?", "Gizi apa yang dimiliki ikan lemadang?", "Kandungan gizi apa yang terdapat pada ikan lemadang?", "Gizi apa yang dimiliki ikan lemadang?"],
+       "responses": ["Ikan lemadang memiliki kandungan lemak jahat yang rendah serta merupakan sumber vitamin B12, fosfor, vitamin B6, niasin, dan selenium yang baik."]
+    }, 
+    {
+      "tag": "Harga ikan lemadang",
+      "patterns": ["Berapa harga 1 KG ikan lemadang?", "Harga 1 KG ikan lemadang?", "Berapa harga ikan lemadang?"],
+      "responses":["Harga ikan lemadang untuk 1 kg diperkirankan sekitar 70 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"
+  ]
+    }, 
+    {
+      "tag": "Makanan ikan lemadang",
+      "patterns": ["Apa makanan ikan lemadang?", "makanan ikan lemadang?"],
+      "responses":["Ikan ini biasanya memakan ikan-ikan kecil "]
+    }, 
+    {
+      "tag" : "klasifikasi ikan lemadang",
+      "patterns" : ["klasifikasi ikan lemadang?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopterygii, Ordo : Perciformes, Famili : Coryphaenidae, Genus : Coryphaena"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan lemadang?",
+        "Bagaimana cara mengolah ikan lemadang?",
+        "Tips mengolah ikan lemadang",
+        "Bagaimana pengolahan ikan lemadang"],
+      "responses":["Berikut beberapa cara pengolahan ikan lemadang : 1. Gulai Ikan lemadang, 2. Ikan lemadang bakar, 3. Pindang ikan lemadang  4. Nugget ikan lemadang"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan lemadang",
+      "patterns": ["Pada bulan apa musim ikan lemadang?", "Kapan musim ikan lemadang?","Kapan puncak musim ikan lemadang?"],
+      "responses":["Puncak musim ikan lemadang biasanya terjadi pada bulan Pebruari."]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan lemadang", 
+      "patterns": ["Dimana habitat ikan lemadang?","Habitat ikan lemadang","Dimana ikan lemadang tinggal? "],
+      "responses":["Lemadang banyak ditemukan di perairan Meksiko, Hawaii, dan Samudra Hindia.Ikan ini juga tersebar dan banyak terdapat di perairan tropis dan subtropis diberbagai pelosok dunia. Perairan Maluku, Sulawesi, Jawa bagian utara maupun Selatan juga banyak di jumpai."]
+    },
+  
+    {
+      "tag": "ikan_tenggiri",
+      "patterns": [
+        "Apa itu ikan tenggiri?", "ikan tenggiri itu apa?", "Apa sih ikan tenggiri?"],
+      "responses": ["Ikan tenggiri bertubuh memanjang, memipih pada sisi-sisinya, telanjang tidak bersisik kecuali pada gurat sisinya. Moncongnya meruncing, dengan mulut lebar dan gigi-gigi yang tajam dan kuat di rahang atas dan bawah."]
+    }, 
+    {
+      "tag": "Nama latin ikan tenggiri",
+      "patterns": [
+        "Apa nama latin ikan tenggiri?",
+        "Nama latin ikan tenggiri?",
+        "Apa Sih nama latin dari ikan tenggiri?",
+        "Nama latin dari ikan tenggiri ?",
+        "Nama latin dari ikan tenggiri itu apa?",
+        "ikan tenggiri nama latinnya apa?",
+        "Apa nama lain dari ikan tenggiri?",
+        "Nama ilmiah ikan tenggiri?"],
+      "responses": ["nama latin dari ikan tenggiri adalah Scomberomorini ", "ikan tenggiri memiliki nama latin adalah Scomberomorini"]
+    }, 
+    {
+      "tag": "Gizi ikan tenggiri",
+      "patterns": ["Gizi yang terkandung dalam ikan tenggiri", "Apa gizi dari ikan tenggiri?", "Gizi apa yang dimiliki ikan tenggiri?", "Kandungan gizi apa yang terdapat pada ikan tenggiri?", "Gizi apa yang dimiliki ikan tenggiri?"],
+      "responses": [" ikan tenggiri juga mengandung beragam nutrisi penting bagi tubuh, seperti vitamin A, vitamin B12, kalsium, fosfor, kalium, selenium, dan omega-3."]
+    }, 
+    {
+      "tag": "Harga ikan tenggiri",
+      "patterns": ["Berapa harga 1 KG ikan tenggiri?", "Harga 1 KG ikan tenggiri?", "Berapa harga ikan tenggiri?"],
+      "responses":["Harga ikan tenggiri untuk 1 kg diperkirankan sekitar 90 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan tenggiri",
+      "patterns": ["Apa makanan ikan tenggiri?", "makanan ikan tenggiri?"],
+      "responses":["Ikan tenggiri tergolong dalam hewan karnivora sehingga makanannya adalah ikan kecil. Ikan tenggiri biasanya akan mencari ikan haring untuk dimakan. Selain ikan kecil, tenggiri juga memakan udang dan juga cumi."]
+    }, 
+    {
+      "tag" : "klasifikasi ikan tenggiri",
+      "patterns" : ["klasifikasi ikan tenggiri?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopteri, Ordo : Scombriformes, Famili : Scombridae, Genus : Scomberomorus"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan tenggiri?",
+        "Bagaimana cara mengolah ikan tenggiri?",
+        "Tips mengolah ikan tenggiri",
+        "Bagaimana pengolahan ikan tenggiri"],
+      "responses":["Berikut beberapa cara pengolahan ikan tenggiri : 1. Gulai Ikan tenggiri, 2. Ikan tenggiri Asem Pedas, 3. ikan tenggiri rica kemangi,  4. ikan tenggiri kuah kuning"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan tenggiri",
+      "patterns": ["Pada bulan apa musim ikan tenggiri?", "Kapan musim ikan tenggiri?","Kapan puncak musim ikan tenggiri?"],
+      "responses":["Indeks musim Penangkapan (IMP) menunjukkan bahwa ikan tenggiri melimpah pada periode Maret sampai dengan Juni dan periode Oktober hingga Desember sepanjang tahun."]
+    },  
+    {
+      "tag"  : "Habitat ikan tenggiri", 
+      "patterns": ["Dimana habitat ikan tenggiri?","Habitat ikan tenggiri","Dimana ikan tenggiri tinggal? "],
+      "responses":["Ikan tenggiri tergolong ke dalam ikan laut yang menyukai daerah laut dangkal. Bagian-bagian yang terdapat batu karang (reef) merupakan habitat yang cocok bagi ikan tenggiri."]
+    },
+  
+    {
+      "tag": "ikan_layaran",
+      "patterns": ["Apa itu ikan layaran?", "ikan layaran itu apa?", "Apa sih ikan layaran?"],
+      "responses": ["Ikan layar adalah jenis ikan yang terkenal karena karena paruh runcingnya dan sirip yang terdapat di punggungnya lebih tinggi dari panjang tubuh. Ikan layar dapat tumbuh dari 0,125 inchi (0,3 cm) ketika menetas dan dapat tumbuh hingga 3 meter. Saat dewasa, berat dari paruh ke ekor dapat mencapai 220 pon (100 kg)."]
+    }, 
+    {
+      "tag": "Nama latin ikan layaran",
+      "patterns": [
+        "Apa nama latin ikan layaran?",
+        "Nama latin ikan layaran?",
+        "Apa Sih nama latin dari ikan layaran?",
+        "Nama latin dari ikan layaran ?",
+        "Nama latin dari ikan layaran itu apa?",
+        "ikan layaran nama latinnya apa?",
+        "Apa nama lain dari ikan layaran?",
+        "Nama ilmiah ikan layaran?"],
+      "responses": ["nama latin dari ikan layaran adalah Istiophorus platypterus ", "ikan layaran memiliki nama latin Istiophorus platypterus "]
+    }, 
+    {
+      "tag": "Gizi ikan layaran",
+      "patterns": ["Gizi yang terkandung dalam ikan layaran", "Apa gizi dari ikan layaran?", "Gizi apa yang dimiliki ikan layaran?", "Kandungan gizi apa yang terdapat pada ikan layaran?", "Gizi apa yang dimiliki ikan layaran?"],
+      "responses": ["Ikan layaran adalah sumber protein sehat tanpa lemak yang sangat baik. Ikan ini juga rendah lemak jenuh dan rendah natrium. ikan ini kaya niasin, vitamin B6, vitamin B12, dan selenium. "]
+    }, 
+    {
+      "tag": "Harga ikan layaran",
+      "patterns": ["Berapa harga 1 KG ikan layaran?", "Harga 1 KG ikan layaran?", "Berapa harga ikan layaran?"],
+      "responses":["Harga ikan layaran untuk 1 kg diperkirankan sekitar 25-35 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan layaran",
+      "patterns": ["Apa makanan ikan layaran?", "makanan ikan layaran?"],
+      "responses":["Ikan layar memakan berbagai jenis makhluk laut selama hidupnya. Pada usia muda, ikan cepat ini memakan plankton kecil. Mangsanya bertambah besar seiring dengan bertambahnya ukuran. Sebagai ikan dewasa, mereka memakan ikan bertulang yang cukup besar, krustasea, dan cumi-cumi."]
+    }, 
+    {
+      "tag" : "klasifikasi ikan layaran",
+      "patterns" : ["klasifikasi ikan layaran?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopterygii, Ordo : Perciformers, Famili : Istiophoridae, Genus : Istiophorus"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan layaran?",
+        "Bagaimana cara mengolah ikan layaran?",
+        "Tips mengolah ikan layaran",
+        "Bagaimana pengolahan ikan layaran"],
+      "responses":["Berikut beberapa cara pengolahan ikan layaran : 1.Ikan layaran kuah asem, 2. Ikan layaran Bakar, 3. Gulai Ikan Layar,  4. ikan layaran goreng balado"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan layaran",
+      "patterns": ["Pada bulan apa musim ikan layaran?", "Kapan musim ikan layaran?","Kapan puncak musim ikan layaran?"],
+      "responses":["Puncak ikan layaran terjadi setiap tahun mulai bulan Agustus hingga November"]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan layaran", 
+      "patterns": ["Dimana habitat ikan layaran?","Habitat ikan layaran","Dimana ikan layaran tinggal? "],
+      "responses":["Ikan layar lebih sering pada wilayah perairan dekat pantai dan pulau-pulau; membentuk gerombolan berdasarkan ukuran. Ikan layar Indo-Pasifik (Istiophorus platypterus) dapat ditemukan hampir di seluruh perairan Indonesia, terutama Samudera Indonesia, Ambon, dan Sulawesi. Untuk di wilayah pasifik luar Indonesia, ikan layar dapat ditemukan di wilayah perikanan Pasifik produktif meliputi Papua Nugini, Filipina, dan banyak pulau Pasifik Tengah seperti Tahiti, Marquesas, dan Hawaii. "]
+    },
+  
+    {
+      "tag": "ikan_cucut_gergaji",
+      "patterns": [
+        "Apa itu ikan cucut gergaji?", "ikan cucut gergaji itu apa?", "Apa sih ikan cucut gergaji?"],
+      "responses": ["Cucut gergaji atau pari sentani (Pristis microdon) merupakan hewan air tawar yang memiliki sirip dada berbentuk segitiga melebar, sehingga Cucut gergaji dapat disebut dengan pari. Cucut gergaji memiliki “gill panjang bakuits” berbentuk gergaji pada moncong hiu sehingga menjadi keunikan tersendiri bagi pari sentani. Cucut gergaji memiliki panjang tubuh rata-rrata adalah 460 cm. "]
+    }, 
+    {
+      "tag": "Nama latin ikan cucut gergaji",
+      "patterns": [
+        "Apa nama latin ikan cucut gergaji?",
+        "Nama latin ikan cucut gergaji?",
+        "Apa Sih nama latin dari ikan cucut gergaji?",
+        "Nama latin dari ikan cucut gergaji ?",
+        "Nama latin dari ikan cucut gergaji itu apa?",
+        "ikan cucut gergaji nama latinnya apa?",
+        "Apa nama lain dari ikan cucut gergaji?",
+        "Nama ilmiah ikan cucut gergaji?"],
+      "responses": ["nama latin dari ikan cucut gergaji adalah Pristis microdon ", "ikan cucut gergaji memiliki nama latin Pristis microdon"]
+    }, 
+    {
+      "tag": "Gizi ikan cucut gergaji",
+      "patterns": ["Gizi yang terkandung dalam ikan cucut gergaji", "Apa gizi dari ikan cucut gergaji?", "Gizi apa yang dimiliki ikan cucut gergaji?", "Kandungan gizi apa yang terdapat pada ikan cucut gergaji?", "Gizi apa yang dimiliki ikan cucut gergaji?"],
+      "responses": [" ikan cucut mempunyai kandungan minyak yang tinggi akan vitamin A dan kandungan skualen yang dapat dimanfaatkan untuk berbagai bidang kesehatan seeprti obat penyakit, juga bidang kecantikan pada suatu produk kosmetik. "]
+    }, 
+    {
+      "tag": "Harga ikan cucut gergaji",
+      "patterns": ["Berapa harga 1 KG ikan cucut gergaji?", "Harga 1 KG ikan cucut gergaji?", "Berapa harga ikan cucut gergaji?"],
+      "responses":["Harga ikan cucut gergaji untuk 1 kg diperkirankan sekitar 40-50 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan cucut gergaji",
+      "patterns": ["Apa makanan ikan cucut gergaji?", "makanan ikan cucut gergaji?"],
+      "responses":["Ikan ini senang memangsa ikan-ikan berukuran sedang atau yang berbadan lebih kecil"]
+    }, 
+    {
+      "tag" : "klasifikasi ikan cucut gergaji",
+      "patterns" : ["klasifikasi ikan cucut gergaji?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Chondrichthyes, Ordo : Pristiformes, Famili : Pristidae, Genus : Pristis"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan cucut gergaji?",
+        "Bagaimana cara mengolah ikan cucut gergaji?",
+        "Tips mengolah ikan cucut gergaji",
+        "Bagaimana pengolahan ikan cucut gergaji"],
+      "responses":["Berikut beberapa cara pengolahan ikan cucut gergaji : 1.Ikan cucut gergaji kuah asem, 2. Pepes Ikan cucut gergaji Bumbu merah, 3. Ikan Cucut Bakar,  4. ikan cucut gergaji balado"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan cucut gergaji",
+      "patterns": ["Pada bulan apa musim ikan cucut gergaji?", "Kapan musim ikan cucut gergaji?","Kapan puncak musim ikan cucut gergaji?"],
+      "responses":["Puncak ikan cucut gergaji terjadi setiap tahun mulai bulan Februari hingga Maret"]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan cucut gergaji", 
+      "patterns": ["Dimana habitat ikan cucut gergaji?","Habitat ikan cucut gergaji","Dimana ikan cucut gergaji tinggal? "],
+      "responses":["Ikan cucut gergaji tersebar di wilayah tropis yang menyebar di Australia, India, Papua Nugini, Afrika Selatan dan Thailand. Biasanya mereka hidup di danau-danau besar, sungai besar atau rawa-rawa tertentu."]
+    },
+  
+    {
+      "tag": "ikan_cucut_botol",
+      "patterns": ["Apa itu ikan cucut botol?", "ikan cucut botol itu apa?", "Apa sih ikan cucut botol?"],
+      "responses": ["Ikan Cucut Botol adalah salah satu spesies Cucut yang unik. Cucut ini memiliki berat hatinya kira-kira 40% dari pada berat badan atau kira-kira 20 kilogram. Berat hati manusia antara 2-4% , maka dari itu sifat keajaiban minyak ikan Cucut botol ini terletak pada hatinya."]
+    }, 
+    {
+      "tag": "Nama latin ikan cucut botol",
+      "patterns": [
+        "Apa nama latin ikan cucut botol?",
+        "Nama latin ikan cucut botol?",
+        "Apa Sih nama latin dari ikan cucut botol?",
+        "Nama latin dari ikan cucut botol ?",
+        "Nama latin dari ikan cucut botol itu apa?",
+        "ikan cucut botol nama latinnya apa?",
+        "Apa nama lain dari ikan cucut botol?",
+        "Nama ilmiah ikan cucut botol?"],
+      "responses": ["nama latin dari ikan cucut botol adalah Rhizoprionodon acutus. ", "ikan cucut botol memiliki nama latin Rhizoprionodon acutus."]
+    }, 
+    {
+      "tag": "Gizi ikan cucut botol",
+      "patterns": ["Gizi yang terkandung dalam ikan cucut botol", "Apa gizi dari ikan cucut botol?", "Gizi apa yang dimiliki ikan cucut botol?", "Kandungan gizi apa yang terdapat pada ikan cucut botol?", "Gizi apa yang dimiliki ikan cucut botol?"],
+      "responses": [" Terdapat 193 kilokalori dalam 1 porsi Ikan Cucut. Rincian kalori: protein 42 g, karbohidrat 0 g, lemak 1,5 g, kalsium 200 mg, fosfor 300 mg, dan zat besi 3 mg."]
+    }, 
+    {
+      "tag": "Harga ikan cucut botol",
+      "patterns": ["Berapa harga 1 KG ikan cucut botol?", "Harga 1 KG ikan cucut botol?", "Berapa harga ikan cucut botol?"],
+      "responses":["Harga ikan cucut botol untuk 1 kg diperkirankan sekitar 45 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    { 
+      "tag": "Makanan ikan cucut botol",
+      "patterns": ["Apa makanan ikan cucut botol?", "makanan ikan cucut botol?"],
+      "responses":["Makanan utama ikan cucut botol adalah ikan lain yang berukuran lebih kecil dan cumi-cumi. Selain kedua makanan utama tersebut, juga memangsa penyu, burung laut, zooplankton, dan nekton."]
+    }, 
+    {
+      "tag" : "klasifikasi ikan cucut botol",
+      "patterns" : ["klasifikasi ikan cucut botol?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Chondrichthyes, Ordo : Carcharhiniformes, Famili : Carcharhinidae, Genus : Rhizoprionodon"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan cucut botol?",
+        "Bagaimana cara mengolah ikan cucut botol?",
+        "Tips mengolah ikan cucut botol",
+        "Bagaimana pengolahan ikan cucut botol"],
+      "responses":["Berikut beberapa cara pengolahan ikan cucut botol : 1.Ikan cucut botol kuah kuning, 2. pepes Ikan cucut botol, 3. Ikan Cucut kuah santan segar,  4. ikan cucut botol balado"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan cucut botol",
+      "patterns": ["Pada bulan apa musim ikan cucut botol?", "Kapan musim ikan cucut botol?","Kapan puncak musim ikan cucut botol?"],
+      "responses":["Puncak musim penangkapan cucut botol terjadi sekitar bulan Agustus."]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan cucut botol", 
+      "patterns": ["Dimana habitat ikan cucut botol?","Habitat ikan cucut botol","Dimana ikan cucut botol tinggal? "],
+      "responses":["Di Indonesia, iakn cucut botol dapat ditemukan di hampir seluruh perairan. Ikan ini mampu hidup di berbagai tempat, mulai perairan laut dalam hingga perairan dangkal."]
+    },
+  
+    {
+      "tag": "ikan_manyung",
+      "patterns": ["Apa itu ikan manyung?", "ikan manyung itu apa?", "Apa sih ikan manyung?"],
+      "responses": ["Ikan manyung mempunyai bentuk badan yang memanjang, kepala picak (gepeng), bersungut tiga pasang (dua pasang pada rahang bawah dan satu pasang pada rahang atas). Perisai kepalanya beralur dan berbintik. Ciri khusus dari ikan ini adalah adanya sirip tambahan berupa lemak yang terletak di belakang sirip dorsal dan tidak berhubungan. Panjang ikan ini dapat mencapai 1,5 m dan beratnya bisa mencapai 40 kg."]
+    }, 
+    {
+      "tag": "Nama latin ikan manyung",
+      "patterns": [
+        "Apa nama latin ikan manyung?",
+        "Nama latin ikan manyung?",
+        "Apa Sih nama latin dari ikan manyung?",
+        "Nama latin dari ikan manyung ?",
+        "Nama latin dari ikan manyung itu apa?",
+        "ikan manyung nama latinnya apa?",
+        "Apa nama lain dari ikan manyung?",
+        "Nama ilmiah ikan manyung?"],
+      "responses": ["nama latin dari ikan manyung adalah Ariidae", "ikan manyung memiliki nama latin Ariidae "]
+    }, 
+    {
+      "tag": "Gizi ikan manyung",
+      "patterns": ["Gizi yang terkandung dalam ikan manyung", "Apa gizi dari ikan manyung?", "Gizi apa yang dimiliki ikan manyung?", "Kandungan gizi apa yang terdapat pada ikan manyung?", "Gizi apa yang dimiliki ikan manyung?"],
+      "responses": ["minyak ikan manyung banyak mengandung asam lemak omega-3, yang diketahui sangat baik untuk jantung."]
+    }, 
+    {
+      "tag": "Harga ikan manyung",
+      "patterns": ["Berapa harga 1 KG ikan manyung?", "Harga 1 KG ikan manyung?", "Berapa harga ikan manyung?"],
+      "responses":["Harga ikan manyung untuk 1 kg diperkirankan sekitar 65 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan manyung",
+      "patterns": ["Apa makanan ikan manyung?", "makanan ikan manyung?"],
+      "responses":["ikan ini biasanya memakan ikan-ikan kecil dan juga fitoplankton"]
+    }, 
+    {
+      "tag" : "klasifikasi ikan manyung",
+      "patterns" : ["klasifikasi ikan manyung?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopterygii, Ordo  : Siluriformes, Famili : Arioidea, Genus : Ariidae"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan manyung?",
+        "Bagaimana cara mengolah ikan manyung?",
+        "Tips mengolah ikan manyung",
+        "Bagaimana pengolahan ikan manyung"],
+      "responses":["Berikut beberapa cara pengolahan ikan manyung : 1.Pindang asam Ikan manyung , 2. Ikan manyung bumbu kuning, 3. Sambal panggang ikan manyung ,  4.sayur ikan manyung asap"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan manyung",
+      "patterns": ["Pada bulan apa musim ikan manyung?", "Kapan musim ikan manyung?","Kapan puncak musim ikan manyung?"],
+      "responses":["Puncak ikan manyung terjadi setiap tahun mulai bulan Agustus hingga Desember"]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan manyung", 
+      "patterns": ["Dimana habitat ikan manyung?","Habitat ikan manyung","Dimana ikan manyung tinggal? "],
+      "responses":["Populasi ikan manyung tersebar di seluruh perairan pantai, terutama di Jawa, Sumatera, Kalimantan, Sulawesi Selatan, dan Arafura. Bagian utara meliputi sepanjang pantai India, Thailand, dan sepanjang pantai Laut Cina Selatan serta bagian selatan pantai Australia, kecuali bagian selatan benua tersebut."]
+    },
+  
+    {
+      "tag": "ikan_sebelah",
+      "patterns": ["Apa itu ikan sebelah?", "ikan sebelah itu apa?", "Apa sih ikan sebelah?"],
+      "responses": ["Secara morfologi ikan ini mempunyai bentuk badan pipih, kedua mata berada pada salah satu sisi, sedang sisi yang lain tidak ada mata (karena itulah ikan ini disebut ikan sebelah) dan sedikit pigmen. Panjang ikan rata-rata sekitar 30 cm dan dapat mencapai 45 cm."]
+    }, 
+    {
+      "tag": "Nama latin ikan sebelah",
+      "patterns": [
+        "Apa nama latin ikan sebelah?",
+        "Nama latin ikan sebelah?",
+        "Apa Sih nama latin dari ikan sebelah?",
+        "Nama latin dari ikan sebelah ?",
+        "Nama latin dari ikan sebelah itu apa?",
+        "ikan sebelah nama latinnya apa?",
+        "Apa nama lain dari ikan sebelah?",
+        "Nama ilmiah ikan sebelah?"],
+      "responses": ["nama latin dari ikan sebelah adalah Pleuronectiformes", "ikan sebelah memiliki nama latin Pleuronectiformes"]
+    }, 
+    {
+      "tag": "Gizi ikan sebelah",
+      "patterns": ["Gizi yang terkandung dalam ikan sebelah", "Apa gizi dari ikan sebelah?", "Gizi apa yang dimiliki ikan sebelah?", "Kandungan gizi apa yang terdapat pada ikan sebelah?", "Gizi apa yang dimiliki ikan sebelah?"],
+      "responses": ["Ikan sebelah diyakini banyak memiliki kandungan omega 3 dan dagingnya sangat dianjurkan dikonsumsi oleh balita untuk pertumbuhan otak. Daging ikan sebelah yang lembut banyak digunakan untuk memproduksi bakso ikan."]
+    }, 
+    {
+      "tag": "Harga ikan sebelah",
+      "patterns": ["Berapa harga 1 KG ikan sebelah?", "Harga 1 KG ikan sebelah?", "Berapa harga ikan sebelah?"],
+      "responses":["Harga ikan sebelah untuk 1 kg diperkirankan sekitar 45 ribu rupiah tergantung daerah dimana ikan itu di jual belikan"]
+    }, 
+    {
+      "tag": "Makanan ikan sebelah",
+      "patterns": ["Apa makanan ikan sebelah?", "makanan ikan sebelah?"],
+      "responses":["Ikan sebelah biasanya memakan hewan-hewan yang hidup di dasar perairan."]
+    }, 
+    {
+      "tag" : "klasifikasi ikan sebelah",
+      "patterns" : ["klasifikasi ikan sebelah?"],
+      "responses":["Kerajaan : Animalia, Filum : Chordata, Kelas : Actinopterygii, Ordo  : Pleuronectiform, Genus : Pleuronectidae"]
+    }, 
+    {
+      "tag": "Tips pengolahan", 
+      "patterns" : ["cara mengolah ikan sebelah?",
+        "Bagaimana cara mengolah ikan sebelah?",
+        "Tips mengolah ikan sebelah",
+        "Bagaimana pengolahan ikan sebelah"],
+      "responses":["Berikut beberapa cara pengolahan ikan sebelah : 1.Ikan sebelah asem manis bombay cabe , 2. Ikan sebelah panggang, 3. Gulai ikan sebelah ,  4. ikan sebelah bakar"]
+  
+    }, 
+    {
+      "tag" : "Musim ikan sebelah",
+      "patterns": ["Pada bulan apa musim ikan sebelah?", "Kapan musim ikan sebelah?","Kapan puncak musim ikan sebelah?"],
+      "responses":["Puncak ikan sebelah terjadi setiap tahun mulai bulan September atau Oktober"]
+    }, 
+  
+    {
+      "tag"  : "Habitat ikan sebelah", 
+      "patterns": ["Dimana habitat ikan sebelah?","Habitat ikan sebelah","Dimana ikan sebelah tinggal? "],
+      "responses":["Habitat: ikan sebelah termasuk ikan demersal, berenang di atas dasar atau menyembunyikan diri di dasar. Tipe substrat yang digemari terutama pasir dan berlumpur – ikan sebelah paling banyak ditemukan di wilayah perairan Utara Jawa, Selatan Kalimantan, Sumatera sampai Papua."]
+    }
+  
+  ]
+}
