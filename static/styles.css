@@ -11410,7 +11410,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/wallpaper.jpg");
+  background-image: url("{{url_for('static', filename='assets/img/wallpaper.jpg')}}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
